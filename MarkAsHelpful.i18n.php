@@ -310,13 +310,14 @@ $messages['nl'] = array(
 );
 
 /** Polish (Polski)
+ * @author Beau
  * @author Olgak85
  */
 $messages['pl'] = array(
 	'markashelpful-desc' => 'Udostępnia interfejs użytkownika do oznaczania komentarzy jako pomocne',
-	'mah-mark-text' => 'Oznacz jako przydatne',
-	'mah-you-marked-text' => 'Ty uważasz, że jest to pomocne.',
-	'mah-someone-marked-text' => '{{GENDER:$1|$1 oznaczył to jako pomocne|$1 oznaczyła to jako pomocne}}',
+	'mah-mark-text' => 'Oznacz jako pomocne',
+	'mah-you-marked-text' => 'Uważasz, że jest to pomocne.',
+	'mah-someone-marked-text' => '$1 {{GENDER:$1|oznaczył|oznaczyła}} to jako pomocne',
 	'mah-undo-mark-text' => 'Cofnij',
 	'mah-action-error' => 'Wystąpił błąd podczas wykonywania tej akcji',
 );
