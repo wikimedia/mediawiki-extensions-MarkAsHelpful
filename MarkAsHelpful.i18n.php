@@ -365,6 +365,18 @@ $messages['si'] = array(
 	'mah-undo-mark-text' => 'අහෝසිය',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Yerpo
+ */
+$messages['sl'] = array(
+	'markashelpful-desc' => 'Vzpostavi uporabniški vmesnik za označevanje komentarjev kot koristne',
+	'mah-mark-text' => 'Označi kot koristno',
+	'mah-you-marked-text' => 'Po vašem mnenju je to koristno',
+	'mah-someone-marked-text' => '{{GENDER:$1|$1 meni, da je to koristno}}',
+	'mah-undo-mark-text' => 'razveljavi',
+	'mah-action-error' => 'Pri izvajanju dejanja je prišlo do napake',
+);
+
 /** Swedish (Svenska)
  * @author WikiPhoenix
  */
