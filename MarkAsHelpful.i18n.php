@@ -18,6 +18,8 @@ $messages['en'] = array(
 	'mah-someone-marked-text' => '{{GENDER:$1|$1 thinks this is helpful}}',
 	'mah-undo-mark-text' => 'undo',
 	'mah-action-error' => 'There was an error performing this action',
+	# 'right-markashelpful-view' => '', // FIXME: Please add a descriptive text for the user right
+	# 'right-markashelpful-admin' => '', // FIXME: Please add a descriptive text for the user right
 );
 
 /** Message documentation (Message documentation)
