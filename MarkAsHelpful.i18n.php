@@ -254,6 +254,13 @@ $messages['it'] = array(
 	'mah-action-error' => "Si è verificato un errore nell'esecuzione di questa azione",
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'mah-undo-mark-text' => 'გაუქმება',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
