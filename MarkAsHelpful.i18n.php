@@ -248,10 +248,14 @@ $messages['ia'] = array(
 );
 
 /** Italian (Italiano)
+ * @author Beta16
  * @author F. Cosoleto
  */
 $messages['it'] = array(
 	'markashelpful-desc' => "Fornisce un'interfaccia utente per contrassegnare i commenti come utili",
+	'mah-mark-text' => 'Contrassegna come utile',
+	'mah-you-marked-text' => 'Pensi che questo sia utile',
+	'mah-someone-marked-text' => '{{GENDER:$1|$1 pensa che questo è utile}}',
 	'mah-undo-mark-text' => 'annulla',
 	'mah-action-error' => "Si è verificato un errore nell'esecuzione di questa azione",
 );
