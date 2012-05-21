@@ -260,6 +260,14 @@ $messages['it'] = array(
 	'mah-action-error' => "Si è verificato un errore nell'esecuzione di questa azione",
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'mah-undo-mark-text' => '取り消し',
+	'mah-action-error' => 'この操作の実行中にエラーが発生しました',
+);
+
 /** Georgian (ქართული)
  * @author David1010
  */
