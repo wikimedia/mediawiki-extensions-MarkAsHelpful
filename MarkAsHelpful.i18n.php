@@ -23,11 +23,12 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Kaganer
  * @author Rob Moen
  */
 $messages['qqq'] = array(
 	'markashelpful-desc' => '{{desc}}
-This is a feature in development. See [[mw:MarkAsHelpful]] for background information.',
+This is a feature in development. See [[mw:Extension:MarkAsHelpful]] for background information.',
 	'mah-mark-text' => 'Text to prompt the user to mark this item as helpful',
 	'mah-you-marked-text' => 'Text displayed to the logged in user if they mark an item helpful',
 	'mah-someone-marked-text' => '$1 is the username that can be used for GENDER. $1 displays username who marked as helpful',
@@ -372,10 +373,13 @@ $messages['roa-tara'] = array(
 
 /** Russian (Русский)
  * @author DR
+ * @author Kaganer
  */
 $messages['ru'] = array(
+	'markashelpful-desc' => 'Предоставляет пользовательский интерфейс для пометки комментариев как полезных',
 	'mah-mark-text' => 'Отметить как полезное',
 	'mah-you-marked-text' => 'Вы считаете, что этот комментарий полезен',
+	'mah-someone-marked-text' => '{{GENDER:$1|$1 считает это полезным}}',
 	'mah-undo-mark-text' => 'отменить',
 	'mah-action-error' => 'Произошла ошибка при выполнении этого действия',
 );
