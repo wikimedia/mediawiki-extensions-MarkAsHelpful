@@ -371,7 +371,7 @@ $messages['roa-tara'] = array(
 	'mah-action-error' => "S'ha verificate 'n'errore facenne st'azione",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author DR
  * @author Kaganer
  */
