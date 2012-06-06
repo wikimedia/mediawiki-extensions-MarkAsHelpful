@@ -276,6 +276,13 @@ $messages['ka'] = array(
 	'mah-undo-mark-text' => 'გაუქმება',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'mah-undo-mark-text' => 'Zeröcknämme',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
