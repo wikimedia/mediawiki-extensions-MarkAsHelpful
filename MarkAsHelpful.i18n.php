@@ -46,7 +46,7 @@ $messages['af'] = array(
 	'mah-undo-mark-text' => 'maak ongedaan',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -70,7 +70,7 @@ $messages['be-tarask'] = array(
 	'mah-action-error' => 'У час выкананьня дзеяньня адбылася памылка',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Y-M D
  */
 $messages['br'] = array(
@@ -125,7 +125,7 @@ $messages['eo'] = array(
 	'mah-action-error' => 'Okazis eraro dum plenumo de tiu ĉi ago',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Platonides
  */
 $messages['es'] = array(
@@ -144,7 +144,7 @@ $messages['fa'] = array(
 	'mah-undo-mark-text' => 'خنثی‌سازی',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Nedergard
  */
 $messages['fi'] = array(
@@ -156,7 +156,7 @@ $messages['fi'] = array(
 	'mah-action-error' => 'Toiminnon suorittamisessa tapahtui virhe',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  */
 $messages['fr'] = array(
@@ -168,7 +168,7 @@ $messages['fr'] = array(
 	'mah-action-error' => 'Il y a eu une erreur en exécutant cette action',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -224,7 +224,7 @@ $messages['hsb'] = array(
 	'mah-action-error' => 'Při wuwjedźenju akcije je zmylk wustupił',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dj
  */
 $messages['hu'] = array(
@@ -236,7 +236,7 @@ $messages['hu'] = array(
 	'mah-action-error' => 'Hiba történt a művelet végrehajtása során',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -248,7 +248,7 @@ $messages['ia'] = array(
 	'mah-action-error' => 'Un error occurreva durante le execution de iste action',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author F. Cosoleto
  */
@@ -295,7 +295,7 @@ $messages['lb'] = array(
 	'mah-action-error' => 'Et gouf e Feeler wéi dës Aktioun gemaach gouf',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -341,7 +341,7 @@ $messages['nl'] = array(
 	'mah-action-error' => 'Er is een fout opgetreden tijdens het uitvoeren van deze handeling',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Beau
  * @author Olgak85
  */
@@ -367,7 +367,7 @@ $messages['pms'] = array(
 	'mah-action-error' => "A-i é staje n'eror an fasend st'assion",
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -400,7 +400,7 @@ $messages['si'] = array(
 	'mah-undo-mark-text' => 'අහෝසිය',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Yerpo
  */
 $messages['sl'] = array(
@@ -412,7 +412,7 @@ $messages['sl'] = array(
 	'mah-action-error' => 'Pri izvajanju dejanja je prišlo do napake',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -422,7 +422,7 @@ $messages['sv'] = array(
 	'mah-action-error' => 'Det uppstod ett fel när denna åtgärd skulle utföras',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author A1
  * @author Тест
  */
@@ -454,7 +454,7 @@ $messages['yi'] = array(
 	'mah-undo-mark-text' => 'אַנולירן',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Anakmalaysia
  * @author Yanmiao liu
  */
@@ -467,7 +467,7 @@ $messages['zh-hans'] = array(
 	'mah-action-error' => '执行此操作中出错',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Anakmalaysia
  */
 $messages['zh-hant'] = array(
