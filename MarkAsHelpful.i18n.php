@@ -276,6 +276,18 @@ $messages['ka'] = array(
 	'mah-undo-mark-text' => 'გაუქმება',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'markashelpful-desc' => '유용한 의견을 표시하기 위한 사용자 인터페이스 제공',
+	'mah-mark-text' => '유용한 것으로 표시',
+	'mah-you-marked-text' => '당신은 이것이 유용하다고 생각합니다',
+	'mah-someone-marked-text' => '{{GENDER:$1|$1 사용자는 이것이 유용하다고 생각합니다}}',
+	'mah-undo-mark-text' => '되돌리기',
+	'mah-action-error' => '이 작업을 수행하는 도중 오류가 발생했습니다',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
