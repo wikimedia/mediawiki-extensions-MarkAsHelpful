@@ -84,12 +84,13 @@ $messages['br'] = array(
 
 /** German (Deutsch)
  * @author Kghbln
+ * @author Purodha
  */
 $messages['de'] = array(
-	'markashelpful-desc' => 'Ermöglicht eine Benutzeroberfläche, mit der Kommentare als hilfreich markiert werden können',
+	'markashelpful-desc' => 'Bietet eine Schnittstelle, mit der Kommentare als hilfreich markiert werden können',
 	'mah-mark-text' => 'Als hilfreich markieren',
 	'mah-you-marked-text' => 'Du meinst, dass dieser Kommentar hilfreich ist.',
-	'mah-someone-marked-text' => '{{GENDER:$1|$1}} meint, dass dieser Kommentar hilfreich ist.',
+	'mah-someone-marked-text' => '{{GENDER:$1|$1}} meint, dass dieser Kommentar hilfreich sei.',
 	'mah-undo-mark-text' => 'rückgängig machen',
 	'mah-action-error' => 'Beim Ausführen dieser Aktion ist ein Fehler aufgetreten.',
 );
@@ -292,7 +293,12 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
+	'markashelpful-desc' => 'Brängg_en Müjjeleschkeid_en et Wiki, öm övver Aanmärkonge ze saare, dat se helfe dääte.',
+	'mah-mark-text' => 'Draach en, dat dat heh helfe däät.',
+	'mah-you-marked-text' => 'Do meins, dat dat heh helfe däät.',
+	'mah-someone-marked-text' => '{{GENDER:$1|Dä|Dat|Dä Metmaacher|De|Dat}} [[User:$1|$1]] meint, dat dat heh helfe däät.',
 	'mah-undo-mark-text' => 'Zeröcknämme',
+	'mah-action-error' => 'Ene Fähler es opjetrodde beim Ußföhre.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -432,6 +438,18 @@ $messages['sv'] = array(
 	'mah-someone-marked-text' => '{{GENDER:$1|$1 tycker att detta är användbart}}',
 	'mah-undo-mark-text' => 'ångra',
 	'mah-action-error' => 'Det uppstod ett fel när denna åtgärd skulle utföras',
+);
+
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'markashelpful-desc' => 'Nagbibigay ng isang ugnayang-mukha ng tagagamit upang mamarkahan ang mga pagpuna bilang nakakatulong',
+	'mah-mark-text' => 'Markahan bilang nakakatulong',
+	'mah-you-marked-text' => 'Sa tingin mo ay nakakatulong ito',
+	'mah-someone-marked-text' => '{{GENDER:$1|Iniisip ni $1 na ito ay nakakatulong}}',
+	'mah-undo-mark-text' => 'huwag nang isagawa',
+	'mah-action-error' => 'Nagkaroon ng kamalian sa pagsasagawa ng kilos na ito.',
 );
 
 /** Ukrainian (українська)
