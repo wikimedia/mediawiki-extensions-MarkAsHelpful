@@ -347,6 +347,18 @@ $messages['ms'] = array(
 	'mah-action-error' => 'Ralat terjadi ketika melakukan tindakan ini',
 );
 
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
+ * @author Event
+ */
+$messages['nb'] = array(
+	'markashelpful-desc' => 'Gir et grensesnitt for å merke kommentarer som nyttige',
+	'mah-mark-text' => 'Merk som nyttig',
+	'mah-you-marked-text' => 'Du syns dette er nyttig',
+	'mah-someone-marked-text' => '{{GENDER:$1|$1 syns dette er nyttig}}',
+	'mah-undo-mark-text' => 'angre',
+	'mah-action-error' => 'Det oppsto en feil da handlingen skulle utføres',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
