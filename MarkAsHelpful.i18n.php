@@ -139,9 +139,12 @@ $messages['es'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Mjbmr
  * @author ZxxZxxZ
  */
 $messages['fa'] = array(
+	'mah-mark-text' => 'علامت گذاری به عنوان مفید',
+	'mah-you-marked-text' => 'شما فکر می‌کنید این مفید است',
 	'mah-undo-mark-text' => 'خنثی‌سازی',
 );
 
@@ -274,6 +277,7 @@ $messages['ja'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'mah-mark-text' => 'მონიშნეთ როგორც სასარგებლო',
 	'mah-undo-mark-text' => 'გაუქმება',
 );
 
@@ -395,6 +399,14 @@ $messages['pms'] = array(
 	'mah-someone-marked-text' => '{{GENDER:$1|$1 a pensa che sòn a sia ùtil}}',
 	'mah-undo-mark-text' => "buta 'me ch'a l'era",
 	'mah-action-error' => "A-i é staje n'eror an fasend st'assion",
+);
+
+/** Romanian (română)
+ * @author Firilacroco
+ */
+$messages['ro'] = array(
+	'mah-mark-text' => 'Marcați ca util',
+	'mah-undo-mark-text' => 'anulare',
 );
 
 /** tarandíne (tarandíne)
