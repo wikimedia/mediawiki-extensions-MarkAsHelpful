@@ -58,6 +58,16 @@ $messages['ast'] = array(
 	'mah-action-error' => 'Hebo un error al facer esta aición',
 );
 
+/** Bashkir (башҡортса)
+ * @author Haqmar
+ */
+$messages['ba'] = array(
+	'mah-mark-text' => 'Файҙалы тип билдәләргә',
+	'mah-you-marked-text' => 'Был комментарий файҙалы тип уйлайһығыҙ',
+	'mah-someone-marked-text' => '{{GENDER:$1|$1 файҙалы тип уйлай}}',
+	'mah-undo-mark-text' => 'кире алырға',
+);
+
 /** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author Wizardist
  */
@@ -136,6 +146,13 @@ $messages['es'] = array(
 	'mah-someone-marked-text' => '{{GENDER:$1|$1 piensa que este comentario resulta útil}}',
 	'mah-undo-mark-text' => 'deshacer',
 	'mah-action-error' => 'Se produjo un error al realizar esta acción',
+);
+
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'mah-undo-mark-text' => 'võta tagasi',
 );
 
 /** Persian (فارسی)
