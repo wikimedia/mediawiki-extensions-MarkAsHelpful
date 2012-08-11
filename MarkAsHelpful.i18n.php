@@ -46,6 +46,13 @@ $messages['af'] = array(
 	'mah-undo-mark-text' => 'maak ongedaan',
 );
 
+/** Arabic (العربية)
+ * @author Meno25
+ */
+$messages['ar'] = array(
+	'mah-undo-mark-text' => 'رجوع',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
@@ -416,6 +423,13 @@ $messages['pms'] = array(
 	'mah-someone-marked-text' => '{{GENDER:$1|$1 a pensa che sòn a sia ùtil}}',
 	'mah-undo-mark-text' => "buta 'me ch'a l'era",
 	'mah-action-error' => "A-i é staje n'eror an fasend st'assion",
+);
+
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'mah-undo-mark-text' => 'ناکړل',
 );
 
 /** Romanian (română)
