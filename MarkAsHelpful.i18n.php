@@ -420,9 +420,11 @@ $messages['pms'] = array(
 
 /** Romanian (română)
  * @author Firilacroco
+ * @author Stelistcristi
  */
 $messages['ro'] = array(
 	'mah-mark-text' => 'Marcați ca util',
+	'mah-you-marked-text' => 'Credeți că acest lucru este util',
 	'mah-undo-mark-text' => 'anulare',
 );
 
