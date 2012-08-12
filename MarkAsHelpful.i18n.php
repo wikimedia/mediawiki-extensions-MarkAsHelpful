@@ -497,6 +497,16 @@ $messages['sv'] = array(
 	'mah-action-error' => 'Det uppstod ett fel när denna åtgärd skulle utföras',
 );
 
+/** Tamil (தமிழ்)
+ * @author Karthi.dr
+ */
+$messages['ta'] = array(
+	'mah-mark-text' => 'உதவியானதாய்க் குறித்துக்  கொள்',
+	'mah-you-marked-text' => 'நீங்கள் இதை உதவியானதாய்க் கருதுகின்றீர்கள்.',
+	'mah-undo-mark-text' => 'செயல்தவிர்',
+	'mah-action-error' => 'இதைச் செயலாக்குவதில் ஒரு பிழை ஏற்பட்டது',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
