@@ -99,6 +99,14 @@ $messages['br'] = array(
 	'mah-action-error' => "Ur fazi a zo bet oc'h ober an obererezh-mañ",
 );
 
+/** Czech (česky)
+ * @author Vks
+ */
+$messages['cs'] = array(
+	'mah-mark-text' => 'Označ jako užitečné',
+	'mah-you-marked-text' => 'Toto považuju za užitečné',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Purodha
@@ -487,11 +495,24 @@ $messages['sl'] = array(
 	'mah-action-error' => 'Pri izvajanju dejanja je prišlo do napake',
 );
 
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+ * @author Rancher
+ */
+$messages['sr-ec'] = array(
+	'markashelpful-desc' => 'Пружа корисничко окружење за означавање коментара као корисних (тј. од помоћи)',
+	'mah-mark-text' => 'Означи као корисно',
+	'mah-you-marked-text' => 'Сматрате да је ово корисно',
+	'mah-someone-marked-text' => '{{GENDER:$1|$1}} мисли да је ово корисно',
+	'mah-undo-mark-text' => 'врати',
+	'mah-action-error' => 'Дошло је до грешке при извршавању ове радње',
+);
+
 /** Swedish (svenska)
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'mah-mark-text' => 'Markera som användbar',
+	'mah-you-marked-text' => 'Du tycker att detta är användbart',
 	'mah-someone-marked-text' => '{{GENDER:$1|$1 tycker att detta är användbart}}',
 	'mah-undo-mark-text' => 'ångra',
 	'mah-action-error' => 'Det uppstod ett fel när denna åtgärd skulle utföras',
