@@ -520,8 +520,10 @@ $messages['sv'] = array(
 
 /** Tamil (தமிழ்)
  * @author Karthi.dr
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
+	'markashelpful-desc' => 'கருத்துரைகளை உதவுபவை எனக் குறிக்க ஒரு பயனர் இடைமுகத்தை வழங்குகிறது',
 	'mah-mark-text' => 'உதவியானதாய்க் குறித்துக்  கொள்',
 	'mah-you-marked-text' => 'நீங்கள் இதை உதவியானதாய்க் கருதுகின்றீர்கள்.',
 	'mah-undo-mark-text' => 'செயல்தவிர்',
