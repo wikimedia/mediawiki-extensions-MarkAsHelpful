@@ -310,6 +310,8 @@ $messages['ja'] = array(
  */
 $messages['ka'] = array(
 	'mah-mark-text' => 'მონიშნეთ როგორც სასარგებლო',
+	'mah-you-marked-text' => 'თქვენ ფიქრობთ, რომ ეს სასარგებლოა',
+	'mah-someone-marked-text' => '{{GENDER:$1|$1 ფიქრობს, რომ ეს სასარგებლოა}}',
 	'mah-undo-mark-text' => 'გაუქმება',
 );
 
