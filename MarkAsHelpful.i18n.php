@@ -305,6 +305,17 @@ $messages['ja'] = array(
 	'mah-action-error' => 'この操作の実行中にエラーが発生しました',
 );
 
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'mah-mark-text' => 'Tandhai migunani',
+	'mah-you-marked-text' => 'Sampéyan nganggep iki migunani',
+	'mah-someone-marked-text' => '{{GENDER:$1|$1 nganggep iki migunani}}',
+	'mah-undo-mark-text' => 'batalaké',
+	'mah-action-error' => 'Ana kasalahan nalika nglakokaké iki',
+);
+
 /** Georgian (ქართული)
  * @author David1010
  */
