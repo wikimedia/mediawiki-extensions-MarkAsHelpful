@@ -309,6 +309,7 @@ $messages['ja'] = array(
  * @author NoiX180
  */
 $messages['jv'] = array(
+	'markashelpful-desc' => 'Isi antarmuka panganggo kanggo nandhai tenggepan minangka migunani',
 	'mah-mark-text' => 'Tandhai migunani',
 	'mah-you-marked-text' => 'Sampéyan nganggep iki migunani',
 	'mah-someone-marked-text' => '{{GENDER:$1|$1 nganggep iki migunani}}',
@@ -566,6 +567,13 @@ $messages['uk'] = array(
 	'mah-someone-marked-text' => '{{GENDER:$1|$1 вважають це корисним}}',
 	'mah-undo-mark-text' => 'скасувати',
 	'mah-action-error' => 'Не вдалося виконати дію',
+);
+
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'mah-undo-mark-text' => 'استرجع',
 );
 
 /** Vietnamese (Tiếng Việt)
