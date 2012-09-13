@@ -100,11 +100,16 @@ $messages['br'] = array(
 );
 
 /** Czech (česky)
+ * @author Mormegil
  * @author Vks
  */
 $messages['cs'] = array(
+	'markashelpful-desc' => 'Poskytuje uživatelské rozhraní k označování komentářů jako užitečných',
 	'mah-mark-text' => 'Označ jako užitečné',
 	'mah-you-marked-text' => 'Toto považuju za užitečné',
+	'mah-someone-marked-text' => '{{GENDER:$1|$1 to považuje za užitečné}}',
+	'mah-undo-mark-text' => 'zpět',
+	'mah-action-error' => 'Při provádění této akce došlo k chybě',
 );
 
 /** German (Deutsch)
