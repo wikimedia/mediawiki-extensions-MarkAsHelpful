@@ -529,9 +529,11 @@ $messages['sr-ec'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Ainali
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'markashelpful-desc' => 'Ger ett användargränssnitt för att markera kommentarer som hjälpsamma',
 	'mah-mark-text' => 'Markera som användbar',
 	'mah-you-marked-text' => 'Du tycker att detta är användbart',
 	'mah-someone-marked-text' => '{{GENDER:$1|$1 tycker att detta är användbart}}',
