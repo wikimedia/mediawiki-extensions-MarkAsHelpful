@@ -528,6 +528,16 @@ $messages['sr-ec'] = array(
 	'mah-action-error' => 'Дошло је до грешке при извршавању ове радње',
 );
 
+/** Serbian (Latin script) (srpski (latinica)‎) */
+$messages['sr-el'] = array(
+	'markashelpful-desc' => 'Pruža korisničko okruženje za označavanje komentara kao korisnih (tj. od pomoći)',
+	'mah-mark-text' => 'Označi kao korisno',
+	'mah-you-marked-text' => 'Smatrate da je ovo korisno',
+	'mah-someone-marked-text' => '{{GENDER:$1|$1}} misli da je ovo korisno',
+	'mah-undo-mark-text' => 'vrati',
+	'mah-action-error' => 'Došlo je do greške pri izvršavanju ove radnje',
+);
+
 /** Swedish (svenska)
  * @author Ainali
  * @author WikiPhoenix
