@@ -75,7 +75,7 @@ $messages['ba'] = array(
 	'mah-undo-mark-text' => 'кире алырға',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
@@ -125,7 +125,7 @@ $messages['de'] = array(
 	'mah-action-error' => 'Beim Ausführen dieser Aktion ist ein Fehler aufgetreten.',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Kghbln
  */
 $messages['de-formal'] = array(
@@ -404,7 +404,7 @@ $messages['ms'] = array(
 	'mah-action-error' => 'Ralat terjadi ketika melakukan tindakan ini',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Event
  */
 $messages['nb'] = array(
@@ -516,7 +516,7 @@ $messages['sl'] = array(
 	'mah-action-error' => 'Pri izvajanju dejanja je prišlo do napake',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -614,7 +614,7 @@ $messages['yi'] = array(
 	'mah-undo-mark-text' => 'אַנולירן',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Anakmalaysia
  * @author Yanmiao liu
  */
@@ -627,7 +627,7 @@ $messages['zh-hans'] = array(
 	'mah-action-error' => '执行此操作中出错',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Anakmalaysia
  */
 $messages['zh-hant'] = array(
