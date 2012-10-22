@@ -353,7 +353,7 @@ $messages['ksh'] = array(
 	'markashelpful-desc' => 'Brängg_en Müjjeleschkeid_en et Wiki, öm övver Aanmärkonge ze saare, dat se helfe dääte.',
 	'mah-mark-text' => 'Draach en, dat dat heh helfe däät.',
 	'mah-you-marked-text' => 'Do meins, dat dat heh helfe däät.',
-	'mah-someone-marked-text' => '{{GENDER:$1|Dä|Dat|Dä Metmaacher|De|Dat}} [[User:$1|$1]] meint, dat dat heh helfe däät.',
+	'mah-someone-marked-text' => '{{GENDER:$1|Dä|Dat|Dä Metmaacher|De|Dat}} [[User:$1|$1]] meint, dat dat heh helfe däät.', # Fuzzy
 	'mah-undo-mark-text' => 'Zeröcknämme',
 	'mah-action-error' => 'Ene Fähler es opjetrodde beim Ußföhre.',
 );
@@ -528,7 +528,8 @@ $messages['sr-ec'] = array(
 	'mah-action-error' => 'Дошло је до грешке при извршавању ове радње',
 );
 
-/** Serbian (Latin script) (srpski (latinica)‎) */
+/** Serbian (Latin script) (srpski (latinica)‎)
+ */
 $messages['sr-el'] = array(
 	'markashelpful-desc' => 'Pruža korisničko okruženje za označavanje komentara kao korisnih (tj. od pomoći)',
 	'mah-mark-text' => 'Označi kao korisno',
@@ -638,4 +639,3 @@ $messages['zh-hant'] = array(
 	'mah-undo-mark-text' => '撤銷',
 	'mah-action-error' => '執行此操作中出錯',
 );
-
