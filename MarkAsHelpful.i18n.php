@@ -289,6 +289,14 @@ $messages['ia'] = array(
 	'mah-action-error' => 'Un error occurreva durante le execution de iste action',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Farras
+ */
+$messages['id'] = array(
+	'mah-mark-text' => 'Tandai bermanfaat',
+	'mah-undo-mark-text' => 'batalkan',
+);
+
 /** Italian (italiano)
  * @author Beta16
  * @author F. Cosoleto
