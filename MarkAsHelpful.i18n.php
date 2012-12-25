@@ -314,7 +314,7 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'markashelpful-desc' => 'コメントに「役に立つ」の印を付けるユーザー インターフェイスを提供する',
+	'markashelpful-desc' => 'コメントに「役に立つ」の印を付けるユーザーインターフェイスを提供する',
 	'mah-mark-text' => '役に立つの印を付ける',
 	'mah-undo-mark-text' => '取り消し',
 	'mah-action-error' => 'この操作の実行中にエラーが発生しました',
@@ -410,6 +410,18 @@ $messages['ms'] = array(
 	'mah-someone-marked-text' => '{{GENDER:$1|$1 berpendapat bahawa ini membantu}}',
 	'mah-undo-mark-text' => 'buat asal',
 	'mah-action-error' => 'Ralat terjadi ketika melakukan tindakan ini',
+);
+
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'markashelpful-desc' => 'Tipprovdi interfaċċa għall-utent sabiex jimmarka kummenti bħala utli',
+	'mah-mark-text' => 'Immarka bħala utli',
+	'mah-you-marked-text' => 'Taħseb li dan huwa utli',
+	'mah-someone-marked-text' => '{{GENDER:$1|$1 jaħseb li dan huwa utli}}',
+	'mah-undo-mark-text' => "reġġa' lura",
+	'mah-action-error' => "Inqalgħet problema fl-eżekuzzjoni ta' din l-azzjoni",
 );
 
 /** Norwegian Bokmål (norsk (bokmål)‎)
