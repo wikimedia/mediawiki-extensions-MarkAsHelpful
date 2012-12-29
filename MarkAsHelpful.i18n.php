@@ -144,6 +144,13 @@ $messages['dsb'] = array(
 	'mah-action-error' => 'Pśi wuwjeźenju akcije jo zmólka nastała',
 );
 
+/** Greek (Ελληνικά)
+ * @author ZaDiak
+ */
+$messages['el'] = array(
+	'mah-undo-mark-text' => 'αναίρεση',
+);
+
 /** Esperanto (Esperanto)
  * @author Blahma
  */
