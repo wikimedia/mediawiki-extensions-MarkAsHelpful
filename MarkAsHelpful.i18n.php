@@ -455,6 +455,13 @@ $messages['nl'] = array(
 	'mah-action-error' => 'Er is een fout opgetreden tijdens het uitvoeren van deze handeling',
 );
 
+/** Nederlands (informeel)‎ (Nederlands (informeel)‎)
+ * @author Siebrand
+ */
+$messages['nl-informal'] = array(
+	'mah-you-marked-text' => 'Jij denkt dat dit nuttig is',
+);
+
 /** Polish (polski)
  * @author Beau
  * @author Olgak85
@@ -601,6 +608,13 @@ $messages['tl'] = array(
 	'mah-someone-marked-text' => '{{GENDER:$1|Iniisip ni $1 na ito ay nakakatulong}}',
 	'mah-undo-mark-text' => 'huwag nang isagawa',
 	'mah-action-error' => 'Nagkaroon ng kamalian sa pagsasagawa ng kilos na ito.',
+);
+
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'mah-undo-mark-text' => 'يېنىۋال',
 );
 
 /** Ukrainian (українська)
