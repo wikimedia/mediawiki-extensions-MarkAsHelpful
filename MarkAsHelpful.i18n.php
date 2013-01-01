@@ -535,7 +535,9 @@ $messages['ru'] = array(
 $messages['si'] = array(
 	'mah-mark-text' => 'ප්‍රයෝජනවත් ලෙස සලකුණු කරන්න',
 	'mah-you-marked-text' => 'ඔබ සිතනවා මෙය ප්‍රයෝජනවත් කියා',
+	'mah-someone-marked-text' => '{{GENDER:$1|$1 මෙය උපකාරශීලි ලෙස සිතයි}}',
 	'mah-undo-mark-text' => 'අහෝසිය',
+	'mah-action-error' => 'මෙම ක්‍රියාව සිදු කිරීමෙහි දෝෂයක් තිබුණි',
 );
 
 /** Slovenian (slovenščina)
