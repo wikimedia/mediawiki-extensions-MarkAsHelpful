@@ -509,6 +509,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'markashelpful-desc' => "Dèje 'n'inderfacce utende pe marcà le commende cumme utile",
 	'mah-mark-text' => 'Signe cumme utile',
 	'mah-you-marked-text' => 'Tu pinze ca jè utile',
 	'mah-someone-marked-text' => '{{GENDER:$1|$1 penze ca jè utile}}',
