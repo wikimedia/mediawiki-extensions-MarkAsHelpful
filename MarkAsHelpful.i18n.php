@@ -25,6 +25,7 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Kaganer
  * @author Rob Moen
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'markashelpful-desc' => '{{desc}}
@@ -32,7 +33,8 @@ This is a feature in development. See [[mw:Extension:MarkAsHelpful]] for backgro
 	'mah-mark-text' => 'Text to prompt the user to mark this item as helpful',
 	'mah-you-marked-text' => 'Text displayed to the logged in user if they mark an item helpful',
 	'mah-someone-marked-text' => '$1 is the username that can be used for GENDER. $1 displays username who marked as helpful',
-	'mah-undo-mark-text' => 'Text for the the undo mark link',
+	'mah-undo-mark-text' => 'Text for the the undo mark link.
+{{Identical|Undo}}',
 	'mah-action-error' => 'Generic error message',
 );
 
