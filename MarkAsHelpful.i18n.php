@@ -28,8 +28,8 @@ $messages['en'] = array(
  * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'markashelpful-desc' => '{{desc}}
-This is a feature in development. See [[mw:Extension:MarkAsHelpful]] for background information.',
+	'markashelpful-desc' => '{{desc|name=Mark As Helpful|url=http://www.mediawiki.org/wiki/Extension:MarkAsHelpful}}
+This is a feature in development.',
 	'mah-mark-text' => 'Text to prompt the user to mark this item as helpful',
 	'mah-you-marked-text' => 'Text displayed to the logged in user if they mark an item helpful',
 	'mah-someone-marked-text' => '$1 is the username that can be used for GENDER. $1 displays username who marked as helpful',
