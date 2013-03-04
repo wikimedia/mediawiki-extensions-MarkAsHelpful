@@ -300,10 +300,11 @@ $messages['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia)
  * @author Farras
+ * @author Kenrick95
  */
 $messages['id'] = array(
 	'mah-mark-text' => 'Tandai bermanfaat',
-	'mah-undo-mark-text' => 'batalkan',
+	'mah-undo-mark-text' => 'balikkan',
 );
 
 /** Italian (italiano)
