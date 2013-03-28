@@ -446,6 +446,13 @@ $messages['nb'] = array(
 	'mah-action-error' => 'Det oppsto en feil da handlingen skulle utføres',
 );
 
+/** Low German (Plattdüütsch)
+ * @author Joachim Mos
+ */
+$messages['nds'] = array(
+	'mah-undo-mark-text' => 'rutnehmen',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
