@@ -321,11 +321,14 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Fryed-peach
  * @author Shirayuki
  */
 $messages['ja'] = array(
 	'markashelpful-desc' => 'コメントに「役に立つ」の印を付けるユーザーインターフェイスを提供する',
 	'mah-mark-text' => '役に立つの印を付ける',
+	'mah-you-marked-text' => 'あなたはこれを役に立つと考えています',
+	'mah-someone-marked-text' => '{{GENDER:$1|$1 はこれを役に立つと考えています}}',
 	'mah-undo-mark-text' => '取り消し',
 	'mah-action-error' => 'この操作の実行中にエラーが発生しました',
 );
