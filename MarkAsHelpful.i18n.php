@@ -437,7 +437,7 @@ $messages['mt'] = array(
 	'mah-action-error' => "Inqalgħet problema fl-eżekuzzjoni ta' din l-azzjoni",
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Event
  */
 $messages['nb'] = array(
