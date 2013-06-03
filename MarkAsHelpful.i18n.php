@@ -508,6 +508,13 @@ $messages['ps'] = array(
 	'mah-undo-mark-text' => 'ناکړل',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Luckas
+ */
+$messages['pt-br'] = array(
+	'mah-undo-mark-text' => 'desfazer',
+);
+
 /** Romanian (română)
  * @author Firilacroco
  * @author Stelistcristi
