@@ -391,6 +391,13 @@ $messages['lb'] = array(
 	'mah-action-error' => 'Et gouf e Feeler wéi dës Aktioun gemaach gouf',
 );
 
+/** Lithuanian (lietuvių)
+ * @author Mantak111
+ */
+$messages['lt'] = array(
+	'mah-undo-mark-text' => 'anuliuoti',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
