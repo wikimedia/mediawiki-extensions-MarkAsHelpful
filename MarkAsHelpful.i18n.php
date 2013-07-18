@@ -101,6 +101,13 @@ $messages['br'] = array(
 	'mah-action-error' => "Ur fazi a zo bet oc'h ober an obererezh-mañ",
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'mah-undo-mark-text' => 'цаоьшу',
+);
+
 /** Czech (česky)
  * @author Mormegil
  * @author Vks
