@@ -142,6 +142,13 @@ $messages['de-formal'] = array(
 	'mah-you-marked-text' => 'Sie meinen, dass dieser Kommentar hilfreich ist.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Gorizon
+ */
+$messages['diq'] = array(
+	'mah-undo-mark-text' => 'peyser bia',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
