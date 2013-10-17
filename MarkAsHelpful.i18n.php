@@ -122,6 +122,14 @@ $messages['cs'] = array(
 	'mah-action-error' => 'Při provádění této akce došlo k chybě',
 );
 
+/** Welsh (Cymraeg)
+ * @author Lloffiwr
+ */
+$messages['cy'] = array(
+	'mah-undo-mark-text' => 'dadwneud',
+	'mah-action-error' => "Cafwyd gwall wrth gyflawni'r weithred hon",
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Purodha
