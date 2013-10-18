@@ -208,11 +208,12 @@ $messages['et'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Ebraminio
  * @author Mjbmr
  * @author ZxxZxxZ
  */
 $messages['fa'] = array(
-	'mah-mark-text' => 'علامت گذاری به عنوان مفید',
+	'mah-mark-text' => 'علامت‌گذاری به‌عنوان مفید',
 	'mah-you-marked-text' => 'شما فکر می‌کنید این مفید است',
 	'mah-undo-mark-text' => 'خنثی‌سازی',
 );
