@@ -126,6 +126,10 @@ $messages['cs'] = array(
  * @author Lloffiwr
  */
 $messages['cy'] = array(
+	'markashelpful-desc' => "Yn cynnig rhyngwyneb i'r defnyddiwr allu marcio bod sylw o ddefnydd",
+	'mah-mark-text' => 'Marcio ei fod o ddefnydd',
+	'mah-you-marked-text' => 'Rydych yn meddwl bod hwn o ddefnydd',
+	'mah-someone-marked-text' => '{{GENDER:$1|Mae $1 yn meddwl bod hwn o ddefnydd}}',
 	'mah-undo-mark-text' => 'dadwneud',
 	'mah-action-error' => "Cafwyd gwall wrth gyflawni'r weithred hon",
 );
