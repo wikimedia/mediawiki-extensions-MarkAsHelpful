@@ -716,13 +716,14 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Anakmalaysia
+ * @author Liuxinyu970226
  * @author Yanmiao liu
  */
 $messages['zh-hans'] = array(
 	'markashelpful-desc' => '提供用户界面标记评论为有帮助',
 	'mah-mark-text' => '标记为有帮助',
 	'mah-you-marked-text' => '您认为有帮助',
-	'mah-someone-marked-text' => '{{GENDER:$1|$1 认为有帮助}}',
+	'mah-someone-marked-text' => '$1认为有帮助',
 	'mah-undo-mark-text' => '撤销',
 	'mah-action-error' => '执行此操作中出错',
 );
