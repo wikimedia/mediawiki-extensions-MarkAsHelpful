@@ -156,9 +156,10 @@ $messages['de-formal'] = array(
 
 /** Zazaki (Zazaki)
  * @author Gorizon
+ * @author Marmase
  */
 $messages['diq'] = array(
-	'mah-undo-mark-text' => 'peyser bia',
+	'mah-undo-mark-text' => 'peyser biya',
 );
 
 /** Lower Sorbian (dolnoserbski)
