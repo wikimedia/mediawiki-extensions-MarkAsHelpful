@@ -109,7 +109,7 @@ $messages['ce'] = array(
 	'mah-undo-mark-text' => 'цаоьшу',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Mormegil
  * @author Vks
  */
