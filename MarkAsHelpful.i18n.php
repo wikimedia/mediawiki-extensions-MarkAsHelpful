@@ -213,6 +213,7 @@ $messages['et'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Ebraminio
  * @author Mjbmr
  * @author ZxxZxxZ
@@ -220,7 +221,9 @@ $messages['et'] = array(
 $messages['fa'] = array(
 	'mah-mark-text' => 'علامت‌گذاری به‌عنوان مفید',
 	'mah-you-marked-text' => 'شما فکر می‌کنید این مفید است',
+	'mah-someone-marked-text' => '{{GENDER:$1|$1 گمان می‌کند مفید است}}',
 	'mah-undo-mark-text' => 'خنثی‌سازی',
+	'mah-action-error' => 'خطایی حین این عمل در حال انجام بود',
 );
 
 /** Finnish (suomi)
