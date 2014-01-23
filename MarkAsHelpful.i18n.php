@@ -134,6 +134,18 @@ $messages['cy'] = array(
 	'mah-action-error' => "Cafwyd gwall wrth gyflawni'r weithred hon",
 );
 
+/** Danish (dansk)
+ * @author Christian List
+ */
+$messages['da'] = array(
+	'markashelpful-desc' => 'Giver en brugergrænseflade til at markere kommentarer som hjælpsomme',
+	'mah-mark-text' => 'Markér som hjælpsomt',
+	'mah-you-marked-text' => 'Du syntes at dette er hjælpsomt',
+	'mah-someone-marked-text' => '{{GENDER:$1|$1 syntes at dette er hjælpsomt}}',
+	'mah-undo-mark-text' => 'fortryd',
+	'mah-action-error' => 'Der opstod en fejl under udførelse af denne handling',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Purodha
