@@ -231,6 +231,7 @@ $messages['et'] = array(
  * @author ZxxZxxZ
  */
 $messages['fa'] = array(
+	'markashelpful-desc' => 'ارائهٔ یک واسط کاربر برای علامت گذاری کردن نظرات به عنوان کمک کننده',
 	'mah-mark-text' => 'علامت‌گذاری به‌عنوان مفید',
 	'mah-you-marked-text' => 'شما فکر می‌کنید این مفید است',
 	'mah-someone-marked-text' => '{{GENDER:$1|$1 گمان می‌کند مفید است}}',
