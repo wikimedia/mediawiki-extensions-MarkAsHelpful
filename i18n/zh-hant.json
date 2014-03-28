@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": [
+            "Anakmalaysia"
+        ]
+    },
+    "markashelpful-desc": "提供用戶界面標記評論為有幫助",
+    "mah-mark-text": "標記為有幫助",
+    "mah-you-marked-text": "您認為有幫助",
+    "mah-someone-marked-text": "{{GENDER:$1|$1認為有幫助}}",
+    "mah-undo-mark-text": "撤銷",
+    "mah-action-error": "執行此操作中出錯"
+}

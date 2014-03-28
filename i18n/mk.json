@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bjankuloski06"
+        ]
+    },
+    "markashelpful-desc": "Овозможува кориснички посредник за означување на коментари како корисни (т.е. од помош)",
+    "mah-mark-text": "Означете го ова како корисно",
+    "mah-you-marked-text": "Сметате дека ова е корисно",
+    "mah-someone-marked-text": "{{GENDER:$1|$1}} смета дека ова е корисно",
+    "mah-undo-mark-text": "врати",
+    "mah-action-error": "Се појави грешка при извршувањето на дејството"
+}

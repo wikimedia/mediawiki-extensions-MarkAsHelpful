@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": [
+            "Event"
+        ]
+    },
+    "markashelpful-desc": "Gir et grensesnitt for å merke kommentarer som nyttige",
+    "mah-mark-text": "Merk som nyttig",
+    "mah-you-marked-text": "Du syns dette er nyttig",
+    "mah-someone-marked-text": "{{GENDER:$1|$1 syns dette er nyttig}}",
+    "mah-undo-mark-text": "angre",
+    "mah-action-error": "Det oppsto en feil da handlingen skulle utføres"
+}

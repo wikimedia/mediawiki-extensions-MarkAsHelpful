@@ -1,0 +1,14 @@
+{
+    "@metadata": {
+        "authors": [
+            "A1",
+            "Тест"
+        ]
+    },
+    "markashelpful-desc": "Надає інтерфейс користувача для позначання корисних коментарів",
+    "mah-mark-text": "Позначити як корисне",
+    "mah-you-marked-text": "Ви вважаєте, що це корисне",
+    "mah-someone-marked-text": "{{GENDER:$1|$1 вважають це корисним}}",
+    "mah-undo-mark-text": "скасувати",
+    "mah-action-error": "Не вдалося виконати дію"
+}

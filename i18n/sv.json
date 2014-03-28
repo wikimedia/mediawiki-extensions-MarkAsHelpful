@@ -1,0 +1,14 @@
+{
+    "@metadata": {
+        "authors": [
+            "Ainali",
+            "WikiPhoenix"
+        ]
+    },
+    "markashelpful-desc": "Ger ett användargränssnitt för att markera kommentarer som hjälpsamma",
+    "mah-mark-text": "Markera som användbar",
+    "mah-you-marked-text": "Du tycker att detta är användbart",
+    "mah-someone-marked-text": "{{GENDER:$1|$1 tycker att detta är användbart}}",
+    "mah-undo-mark-text": "ångra",
+    "mah-action-error": "Det uppstod ett fel när denna åtgärd skulle utföras"
+}

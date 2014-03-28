@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": [
+            "Siebrand"
+        ]
+    },
+    "markashelpful-desc": "Biedt een gebruikersinterface om opmerkingen als nuttig te markeren",
+    "mah-mark-text": "Als nuttig markeren",
+    "mah-you-marked-text": "U denkt dat dit nuttig is",
+    "mah-someone-marked-text": "{{GENDER:$1|$1}} denkt dat dit nuttig is",
+    "mah-undo-mark-text": "ongedaan maken",
+    "mah-action-error": "Er is een fout opgetreden tijdens het uitvoeren van deze handeling"
+}

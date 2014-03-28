@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": [
+            "NoiX180"
+        ]
+    },
+    "markashelpful-desc": "Isi antarmuka panganggo kanggo nandhai tenggepan minangka migunani",
+    "mah-mark-text": "Tandhai migunani",
+    "mah-you-marked-text": "Sampéyan nganggep iki migunani",
+    "mah-someone-marked-text": "{{GENDER:$1|$1 nganggep iki migunani}}",
+    "mah-undo-mark-text": "batalaké",
+    "mah-action-error": "Ana kasalahan nalika nglakokaké iki"
+}

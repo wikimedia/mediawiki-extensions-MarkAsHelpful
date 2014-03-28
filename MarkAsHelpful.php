@@ -16,13 +16,13 @@ $wgMarkAsHelpfulType = array();
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'MarkAsHelpful',
-	'version' => '0.1',
+	'version' => '0.2.0',
 	'author' => array( 'Rob Moen', 'Benny Situ' ),
 	'descriptionmsg' => 'markashelpful-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Mark_as_Helpful', // FIXME: A page in the extension namespace should be created
 );
 
-$dir = dirname( __FILE__ ) . '/';
+$dir = __DIR__ . '/';
 // Object model
 $wgAutoloadClasses['MarkAsHelpfulItem'] = $dir . 'includes/MarkAsHelpfulItem.php';
 $wgAutoloadClasses['MWMarkAsHelpFulItemPropertyException'] = $dir . 'includes/MarkAsHelpfulItem.php';
@@ -56,6 +56,7 @@ $wgAvailableRights[] = 'markashelpful-admin';
 $wgGroupPermissions['sysop']['markashelpful-admin'] = true;
 
 // Internationalisation
+$wgMessagesDirs['MarkAsHelpful'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['MarkAsHelpful'] = $dir . 'MarkAsHelpful.i18n.php';
 
 // Resources
