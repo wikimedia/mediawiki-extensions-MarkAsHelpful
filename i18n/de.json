@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kghbln",
-            "Purodha"
-        ]
-    },
-    "markashelpful-desc": "Ermöglicht das Markieren von Kommentaren als hilfreich",
-    "mah-mark-text": "Als hilfreich markieren",
-    "mah-you-marked-text": "Du meinst, dass dieser Kommentar hilfreich ist.",
-    "mah-someone-marked-text": "{{GENDER:$1|$1}} meint, dass dieser Kommentar hilfreich sei.",
-    "mah-undo-mark-text": "rückgängig machen",
-    "mah-action-error": "Beim Ausführen dieser Aktion ist ein Fehler aufgetreten."
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Purodha"
+		]
+	},
+	"markashelpful-desc": "Ermöglicht das Markieren von Kommentaren als hilfreich",
+	"mah-mark-text": "Als hilfreich markieren",
+	"mah-you-marked-text": "Du meinst, dass dieser Kommentar hilfreich ist.",
+	"mah-someone-marked-text": "{{GENDER:$1|$1}} meint, dass dieser Kommentar hilfreich sei.",
+	"mah-undo-mark-text": "rückgängig machen",
+	"mah-action-error": "Beim Ausführen dieser Aktion ist ein Fehler aufgetreten."
 }

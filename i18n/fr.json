@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "Gomoko"
-        ]
-    },
-    "markashelpful-desc": "Fournit une interface utilisateur pour marquer les commentaires comme utiles",
-    "mah-mark-text": "Marquer comme utile",
-    "mah-you-marked-text": "Vous pensez que ceci est utile",
-    "mah-someone-marked-text": "{{GENDER:$1|$1}} pense que cela est utile",
-    "mah-undo-mark-text": "annuler",
-    "mah-action-error": "Il y a eu une erreur en exécutant cette action"
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"markashelpful-desc": "Fournit une interface utilisateur pour marquer les commentaires comme utiles",
+	"mah-mark-text": "Marquer comme utile",
+	"mah-you-marked-text": "Vous pensez que ceci est utile",
+	"mah-someone-marked-text": "{{GENDER:$1|$1}} pense que cela est utile",
+	"mah-undo-mark-text": "annuler",
+	"mah-action-error": "Il y a eu une erreur en exécutant cette action"
 }

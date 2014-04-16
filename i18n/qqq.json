@@ -1,15 +1,15 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kaganer",
-            "Rob Moen",
-            "Shirayuki"
-        ]
-    },
-    "markashelpful-desc": "{{desc|name=Mark As Helpful|url=http://www.mediawiki.org/wiki/Extension:MarkAsHelpful}}\nThis is a feature in development.",
-    "mah-mark-text": "Text to prompt the user to mark this item as helpful",
-    "mah-you-marked-text": "Text displayed to the logged in user if they mark an item helpful",
-    "mah-someone-marked-text": "Used to display username who marked as helpful. Parameters:\n* $1 - username, with GENDER support",
-    "mah-undo-mark-text": "Text for the the undo mark link.\n{{Identical|Undo}}",
-    "mah-action-error": "Generic error message"
+	"@metadata": {
+		"authors": [
+			"Kaganer",
+			"Rob Moen",
+			"Shirayuki"
+		]
+	},
+	"markashelpful-desc": "{{desc|name=Mark As Helpful|url=http://www.mediawiki.org/wiki/Extension:MarkAsHelpful}}\nThis is a feature in development.",
+	"mah-mark-text": "Text to prompt the user to mark this item as helpful",
+	"mah-you-marked-text": "Text displayed to the logged in user if they mark an item helpful",
+	"mah-someone-marked-text": "Used to display username who marked as helpful. Parameters:\n* $1 - username, with GENDER support",
+	"mah-undo-mark-text": "Text for the the undo mark link.\n{{Identical|Undo}}",
+	"mah-action-error": "Generic error message"
 }

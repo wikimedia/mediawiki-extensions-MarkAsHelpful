@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Luckas"
-        ]
-    },
-    "mah-undo-mark-text": "desfazer"
+	"@metadata": {
+		"authors": [
+			"Luckas"
+		]
+	},
+	"mah-undo-mark-text": "desfazer"
 }
