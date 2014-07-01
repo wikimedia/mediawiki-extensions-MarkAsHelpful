@@ -126,15 +126,15 @@
 		/**
 		 * Click Event for marking an item as helpful.
 		 */
-		$( '.markashelpful-mark' ).live( 'click', function () {
-			mah.markItem( $(this), 'mark' );
+		$( document ).on( 'click', '.markashelpful-mark', function () {
+			mah.markItem( $( this ), 'mark' );
 		} );
 
 		/**
 		 * Click Event for removing helpful status from an item.
 		 */
-		$( '.markashelpful-undo' ).live( 'click', function () {
-			mah.markItem( $(this), 'unmark' );
+		$( document ).on( 'click', '.markashelpful-undo', function () {
+			mah.markItem( $( this ), 'unmark' );
 		} );
 
 		// Initialize MarkAsHelpful
