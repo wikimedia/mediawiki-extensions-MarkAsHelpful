@@ -69,10 +69,9 @@ class ApiGetMarkAsHelpfulItem extends ApiBase {
 		);
 	}
 
-	public function getVersion() {
-		return __CLASS__ . ': $Id$';
-	}
-
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getParamDescription() {
 		return array(
 			'type' => 'The object type that is being marked as helpful',
@@ -82,6 +81,9 @@ class ApiGetMarkAsHelpfulItem extends ApiBase {
 		);
 	}
 
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getDescription() {
 		return 'Get a list of all helpful status for an object item';
 	}

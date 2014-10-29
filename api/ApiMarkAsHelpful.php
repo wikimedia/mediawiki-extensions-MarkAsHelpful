@@ -117,10 +117,9 @@ class ApiMarkAsHelpful extends ApiBase {
 		return true;
 	}
 
-	public function getVersion() {
-		return __CLASS__ . ': $Id$';
-	}
-
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getParamDescription() {
 		return array(
 			'mahaction' => 'the mark or unmark an item as helpful',
@@ -134,6 +133,9 @@ class ApiMarkAsHelpful extends ApiBase {
 		);
 	}
 
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getDescription() {
 		return 'Allows users to mark/unmark an object item in the site as helpful';
 	}
