@@ -11,5 +11,6 @@
 	"mah-you-marked-text": "您认为有帮助",
 	"mah-someone-marked-text": "$1认为有帮助",
 	"mah-undo-mark-text": "撤销",
-	"mah-action-error": "执行此操作中出错"
+	"mah-action-error": "执行此操作中出错",
+	"apihelp-markashelpful-param-locale": "使用的区域设置。"
 }
