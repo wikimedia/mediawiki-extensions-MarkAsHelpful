@@ -13,5 +13,8 @@
 	"mah-undo-mark-text": "撤销",
 	"mah-action-error": "执行此操作中出错",
 	"apihelp-getmarkashelpfulitem-param-prop": "要获取的属性。",
+	"apihelp-getmarkashelpfulitem-param-page": "请求项目的页面。",
+	"apihelp-markashelpful-param-useragent": "浏览器的用户代理标头。",
+	"apihelp-markashelpful-param-system": "使用的操作系统。",
 	"apihelp-markashelpful-param-locale": "使用的区域设置。"
 }
