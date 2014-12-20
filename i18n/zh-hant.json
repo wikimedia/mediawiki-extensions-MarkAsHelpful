@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anakmalaysia"
+			"Anakmalaysia",
+			"Cwlin0416"
 		]
 	},
-	"markashelpful-desc": "提供用戶界面標記評論為有幫助",
+	"markashelpful-desc": "提供使用者介面標記評論為有幫助",
 	"mah-mark-text": "標記為有幫助",
 	"mah-you-marked-text": "您認為有幫助",
-	"mah-someone-marked-text": "{{GENDER:$1|$1認為有幫助}}",
-	"mah-undo-mark-text": "撤銷",
+	"mah-someone-marked-text": "{{GENDER:$1|$1 認為有幫助}}",
+	"mah-undo-mark-text": "還原",
 	"mah-action-error": "執行此操作中出錯"
 }
