@@ -90,4 +90,4 @@ class ApiGetMarkAsHelpfulItem extends ApiBase {
 
 }
 
-class MWApiGetMarkAsHelpfulItemInvalidPageException extends MWException {}
+class MWApiGetMarkAsHelpfulItemInvalidPageException extends Exception {}

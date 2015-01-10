@@ -142,5 +142,5 @@ class ApiMarkAsHelpful extends ApiBase {
 
 }
 
-class MWApiMarkAsHelpfulInvalidActionException extends MWException {}
-class MWApiMarkAsHelpfulInvalidPageException extends MWException {}
+class MWApiMarkAsHelpfulInvalidActionException extends Exception {}
+class MWApiMarkAsHelpfulInvalidPageException extends Exception {}

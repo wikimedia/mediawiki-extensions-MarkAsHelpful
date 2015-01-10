@@ -263,6 +263,6 @@ class MarkAsHelpfulItem {
 	}
 }
 
-class MWMarkAsHelpFulItemPropertyException extends MWException {}
-class MWMarkAsHelpFulItemSearchKeyException extends MWException {}
+class MWMarkAsHelpFulItemPropertyException extends Exception {}
+class MWMarkAsHelpFulItemSearchKeyException extends Exception {}
 
