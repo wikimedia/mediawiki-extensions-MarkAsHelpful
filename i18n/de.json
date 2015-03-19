@@ -4,7 +4,8 @@
 			"Kghbln",
 			"Purodha",
 			"Metalhead64",
-			"Inkowik"
+			"Inkowik",
+			"Man77"
 		]
 	},
 	"markashelpful-desc": "Ermöglicht das Markieren von Kommentaren als hilfreich",
@@ -13,5 +14,6 @@
 	"mah-someone-marked-text": "{{GENDER:$1|$1}} meint, dass dieser Kommentar hilfreich sei.",
 	"mah-undo-mark-text": "rückgängig machen",
 	"mah-action-error": "Beim Ausführen dieser Aktion ist ein Fehler aufgetreten.",
-	"apihelp-getmarkashelpfulitem-param-page": "Die Seite, die das Objekt anfragt."
+	"apihelp-getmarkashelpfulitem-param-page": "Die Seite, die das Objekt anfragt.",
+	"apihelp-markashelpful-param-system": "Verwendetes Betriebssystem."
 }
