@@ -10,5 +10,6 @@
 	"mah-you-marked-text": "Du tycker att detta är användbart",
 	"mah-someone-marked-text": "{{GENDER:$1|$1 tycker att detta är användbart}}",
 	"mah-undo-mark-text": "ångra",
-	"mah-action-error": "Det uppstod ett fel när denna åtgärd skulle utföras"
+	"mah-action-error": "Det uppstod ett fel när denna åtgärd skulle utföras",
+	"apihelp-markashelpful-param-system": "Operativsystemet som används."
 }

@@ -3,10 +3,11 @@
 		"authors": [
 			"Kaganer",
 			"Rob Moen",
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
-	"markashelpful-desc": "{{desc|name=Mark As Helpful|url=http://www.mediawiki.org/wiki/Extension:MarkAsHelpful}}\nThis is a feature in development.",
+	"markashelpful-desc": "{{desc|name=Mark As Helpful|url=https://www.mediawiki.org/wiki/Extension:MarkAsHelpful}}\nThis is a feature in development.",
 	"mah-mark-text": "Text to prompt the user to mark this item as helpful",
 	"mah-you-marked-text": "Text displayed to the logged in user if they mark an item helpful",
 	"mah-someone-marked-text": "Used to display username who marked as helpful. Parameters:\n* $1 - username, with GENDER support",
