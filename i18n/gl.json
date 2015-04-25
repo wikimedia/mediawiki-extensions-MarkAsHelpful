@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Elisardojm"
 		]
 	},
 	"markashelpful-desc": "Proporciona unha interface de usuario para marcar comentarios como útiles",
@@ -9,5 +10,14 @@
 	"mah-you-marked-text": "Pensa que isto é útil",
 	"mah-someone-marked-text": "{{GENDER:$1|$1}} pensa que isto é útil",
 	"mah-undo-mark-text": "desfacer",
-	"mah-action-error": "Houbo un erro ao levar a cabo a acción"
+	"mah-action-error": "Houbo un erro ao levar a cabo a acción",
+	"apihelp-getmarkashelpfulitem-description": "Obten unha lista de todos os estados útiles para un obxecto.",
+	"apihelp-getmarkashelpfulitem-param-type": "Tipo de obxecto que está marcado como útil.",
+	"apihelp-getmarkashelpfulitem-param-item": "Obxecto que está marcado como útil.",
+	"apihelp-getmarkashelpfulitem-param-prop": "Que propiedade obter.",
+	"apihelp-getmarkashelpfulitem-param-page": "Páxina que está solicitando o elemento.",
+	"apihelp-markashelpful-description": "Permitir ós usuarios marcar ou desmarcar un obxecto do sitio como útil.",
+	"apihelp-markashelpful-param-type": "Tipo de obxecto que está marcado como útil.",
+	"apihelp-markashelpful-param-item": "Obxecto que está marcado como útil.",
+	"apihelp-markashelpful-param-system": "Sistema operativo que está usando."
 }
