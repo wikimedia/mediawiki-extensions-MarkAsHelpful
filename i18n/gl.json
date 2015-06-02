@@ -18,6 +18,7 @@
 	"apihelp-getmarkashelpfulitem-param-page": "Páxina que está solicitando o elemento.",
 	"apihelp-markashelpful-description": "Permitir ós usuarios marcar ou desmarcar un obxecto do sitio como útil.",
 	"apihelp-markashelpful-param-mahaction": "Se marcar ou desmarcar un elemento como útil.",
+	"apihelp-markashelpful-param-page": "Páxina na que está o elemento a marcar.",
 	"apihelp-markashelpful-param-type": "Tipo de obxecto que está marcado como útil.",
 	"apihelp-markashelpful-param-item": "Obxecto que está marcado como útil.",
 	"apihelp-markashelpful-param-system": "Sistema operativo que está usando."

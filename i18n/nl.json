@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siebrand"
+			"Siebrand",
+			"Esketti"
 		]
 	},
 	"markashelpful-desc": "Biedt een gebruikersinterface om opmerkingen als nuttig te markeren",
@@ -9,5 +10,18 @@
 	"mah-you-marked-text": "U denkt dat dit nuttig is",
 	"mah-someone-marked-text": "{{GENDER:$1|$1}} denkt dat dit nuttig is",
 	"mah-undo-mark-text": "ongedaan maken",
-	"mah-action-error": "Er is een fout opgetreden tijdens het uitvoeren van deze handeling"
+	"mah-action-error": "Er is een fout opgetreden tijdens het uitvoeren van deze handeling",
+	"apihelp-getmarkashelpfulitem-description": "Voor een lijst van alle nuttige status van een object item.",
+	"apihelp-getmarkashelpfulitem-param-type": "Het type object dat wordt gemarkeerd als nuttig.",
+	"apihelp-getmarkashelpfulitem-param-item": "Het object item dat wordt gemarkeerd als nuttig.",
+	"apihelp-getmarkashelpfulitem-param-prop": "Welke eigenschappen op te vragen.",
+	"apihelp-getmarkashelpfulitem-param-page": "De pagina aanvragen van het item.",
+	"apihelp-markashelpful-description": "Hiermee kunnen gebruikers toevoegen of verwijderen van een object item in de site nuttig is.",
+	"apihelp-markashelpful-param-mahaction": "Of wilt markeren of de markering ongedaan maken van een post nuttig is.",
+	"apihelp-markashelpful-param-page": "De pagina waar het item gemarkeerd is.",
+	"apihelp-markashelpful-param-type": "Het type object dat wordt gemarkeerd als nuttig.",
+	"apihelp-markashelpful-param-item": "Het object item dat wordt gemarkeerd als nuttig.",
+	"apihelp-markashelpful-param-useragent": "De header User-Agent van de browser.",
+	"apihelp-markashelpful-param-system": "Het besturingssysteem dat u gebruikt.",
+	"apihelp-markashelpful-param-locale": "De landinstelling in gebruik."
 }
