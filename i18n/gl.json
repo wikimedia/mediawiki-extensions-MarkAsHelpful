@@ -21,5 +21,7 @@
 	"apihelp-markashelpful-param-page": "Páxina na que está o elemento a marcar.",
 	"apihelp-markashelpful-param-type": "Tipo de obxecto que está marcado como útil.",
 	"apihelp-markashelpful-param-item": "Obxecto que está marcado como útil.",
-	"apihelp-markashelpful-param-system": "Sistema operativo que está usando."
+	"apihelp-markashelpful-param-useragent": "A cabeceira de axente de usuario do navegador.",
+	"apihelp-markashelpful-param-system": "Sistema operativo que está usando.",
+	"apihelp-markashelpful-param-locale": "Localización en uso."
 }
