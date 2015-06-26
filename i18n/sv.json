@@ -11,5 +11,7 @@
 	"mah-someone-marked-text": "{{GENDER:$1|$1 tycker att detta är användbart}}",
 	"mah-undo-mark-text": "ångra",
 	"mah-action-error": "Det uppstod ett fel när denna åtgärd skulle utföras",
+	"apihelp-getmarkashelpfulitem-param-prop": "Vilken egenskap att hämta.",
+	"apihelp-getmarkashelpfulitem-param-page": "Sidan som begär objektet.",
 	"apihelp-markashelpful-param-system": "Operativsystemet som används."
 }
