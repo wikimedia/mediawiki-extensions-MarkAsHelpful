@@ -28,7 +28,7 @@ class ApiMarkAsHelpful extends ApiBase {
 		$isAbleToShow = false;
 
 		// Gives other extension the last chance to specify mark as helpful permission rules
-		wfRunHooks( 'onMarkItemAsHelpful', array( $params['type'], $params['item'], $wgUser, &$isAbleToMark, $page, &$isAbleToShow ) );
+		Hooks::run( 'onMarkItemAsHelpful', array( $params['type'], $params['item'], $wgUser, &$isAbleToMark, $page, &$isAbleToShow ) );
 
 		if ( !$isAbleToShow || !$isAbleToMark ) {
 			$this->noPermissionError();
