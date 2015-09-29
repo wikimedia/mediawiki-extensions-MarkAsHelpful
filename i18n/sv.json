@@ -13,5 +13,6 @@
 	"mah-action-error": "Det uppstod ett fel när denna åtgärd skulle utföras",
 	"apihelp-getmarkashelpfulitem-param-prop": "Vilken egenskap att hämta.",
 	"apihelp-getmarkashelpfulitem-param-page": "Sidan som begär objektet.",
+	"apihelp-markashelpful-description": "Låter användare markera eller avmarkera ett objekt på webbplatsen som hjälpsamt.",
 	"apihelp-markashelpful-param-system": "Operativsystemet som används."
 }
