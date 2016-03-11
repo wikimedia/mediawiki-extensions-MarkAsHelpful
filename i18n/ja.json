@@ -3,7 +3,8 @@
 		"authors": [
 			"Fryed-peach",
 			"Shirayuki",
-			"Otokoume"
+			"Otokoume",
+			"2nd-player"
 		]
 	},
 	"markashelpful-desc": "コメントに「役に立つ」の印を付けるユーザーインターフェイスを提供する",
@@ -15,7 +16,7 @@
 	"apihelp-getmarkashelpfulitem-description": "オブジェクト項目のすべての便利なステータスのリストを取得します。",
 	"apihelp-getmarkashelpfulitem-param-type": "役立つとしてマークされているオブジェクトの種類",
 	"apihelp-getmarkashelpfulitem-param-item": "役立つとしてマークされているオブジェクトの項目",
-	"apihelp-getmarkashelpfulitem-param-prop": "いかなるプロパティを取得します。",
+	"apihelp-getmarkashelpfulitem-param-prop": "どのプロパティを取得するか。",
 	"apihelp-getmarkashelpfulitem-param-page": "項目を要求しているページ",
 	"apihelp-markashelpful-description": "利用者が参考になったサイト内のオブジェクト項目を、マークまたはマーク解除できるようにします。",
 	"apihelp-markashelpful-param-mahaction": "参考になるような項目をマークまたはマーク解除するか否か",
