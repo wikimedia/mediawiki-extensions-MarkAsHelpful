@@ -12,7 +12,7 @@
 	"mah-you-marked-text": "您认为有帮助",
 	"mah-someone-marked-text": "$1认为有帮助",
 	"mah-undo-mark-text": "撤销",
-	"mah-action-error": "执行此操作中出错",
+	"mah-action-error": "执行此操作时出错",
 	"apihelp-getmarkashelpfulitem-description": "获取一个对象项目全部的有帮助状态列表。",
 	"apihelp-getmarkashelpfulitem-param-type": "标记为有帮助的对象类型。",
 	"apihelp-getmarkashelpfulitem-param-item": "标记为有标注的对象项目。",
