@@ -17,7 +17,7 @@
 	"apihelp-getmarkashelpfulitem-description": "Ruft eine Liste aller hilfreichen Statusse für ein Objektelement ab.",
 	"apihelp-getmarkashelpfulitem-param-type": "Der Objekttyp, der als hilfreich markiert wurde.",
 	"apihelp-getmarkashelpfulitem-param-item": "Das Objektelement, das als hilfreich markiert wurde.",
-	"apihelp-getmarkashelpfulitem-param-prop": "Welche Eigenschaft abgerufen werden soll.",
+	"apihelp-getmarkashelpfulitem-param-prop": "Zurückzugebende Eigenschaft:",
 	"apihelp-getmarkashelpfulitem-param-page": "Die Seite, die das Objekt anfragt.",
 	"apihelp-markashelpful-description": "Erlaubt es Benutzern, ein Objektelement in der Website als hilfreich zu markieren oder entmarkieren.",
 	"apihelp-markashelpful-param-mahaction": "Ob ein Element als hilfreich markiert wird oder nicht.",
