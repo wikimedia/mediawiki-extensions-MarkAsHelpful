@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Hamilton Abreu"
 		]
 	},
 	"markashelpful-desc": "Fornece uma interface de utilizador para marcar comentários como úteis",
@@ -9,5 +10,5 @@
 	"mah-you-marked-text": "Você acha isto útil",
 	"mah-someone-marked-text": "{{GENDER:$1|$1 acha isto útil}}",
 	"mah-undo-mark-text": "desfazer",
-	"mah-action-error": "Ocorreu um erro ao executar esta acção"
+	"mah-action-error": "Ocorreu um erro ao executar esta ação"
 }
