@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Platonides"
+			"Platonides",
+			"Dgstranz"
 		]
 	},
 	"markashelpful-desc": "Proporciona una interfaz para indicar los comentarios que son útiles",
@@ -9,5 +10,8 @@
 	"mah-you-marked-text": "Piensas que este comentario resulta útil.",
 	"mah-someone-marked-text": "{{GENDER:$1|$1 piensa que este comentario resulta útil}}",
 	"mah-undo-mark-text": "deshacer",
-	"mah-action-error": "Se produjo un error al realizar esta acción"
+	"mah-action-error": "Se produjo un error al realizar esta acción",
+	"apihelp-getmarkashelpfulitem-param-prop": "Propiedad que obtener.",
+	"apihelp-markashelpful-param-system": "Sistema operativo utilizado.",
+	"apihelp-markashelpful-param-locale": "Configuración regional utilizada."
 }
