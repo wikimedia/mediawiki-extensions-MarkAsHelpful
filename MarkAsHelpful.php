@@ -57,7 +57,6 @@ $wgGroupPermissions['sysop']['markashelpful-admin'] = true;
 
 // Internationalisation
 $wgMessagesDirs['MarkAsHelpful'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['MarkAsHelpful'] = $dir . 'MarkAsHelpful.i18n.php';
 
 // Resources
 $mahResourceTemplate = array(
