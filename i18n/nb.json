@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Event"
+			"Event",
+			"Jon Harald Søby"
 		]
 	},
 	"markashelpful-desc": "Gir et grensesnitt for å merke kommentarer som nyttige",
