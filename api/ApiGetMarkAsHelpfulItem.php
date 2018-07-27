@@ -33,8 +33,7 @@ class ApiGetMarkAsHelpfulItem extends ApiBase {
 				);
 				$format = 'formatted';
 			}
-		}
-		else {
+		} else {
 			$data = '';
 
 			if ( $params['prop'] == 'metadata') {
