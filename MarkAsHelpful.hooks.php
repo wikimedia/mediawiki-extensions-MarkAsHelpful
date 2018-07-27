@@ -22,7 +22,6 @@ class MarkAsHelpfulHooks {
 	 * @param $skin Skin
 	 */
 	public static function addMarkAsHelpful( &$output, &$skin ) {
-
 		return true;
 	}
 

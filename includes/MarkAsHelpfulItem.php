@@ -132,7 +132,6 @@ class MarkAsHelpfulItem {
 	 * @exception MWMarkAsHelpFulItemSearchKeyException
 	 */
 	public function loadFromDatabase( $conds ) {
-
 		$searchKey = array_keys( $conds );
 
 		$flag = sort( $searchKey );
@@ -175,13 +174,12 @@ class MarkAsHelpfulItem {
 	 * data must be validated if called from setProperty()
 	 */
 	public function mark() {
-		
 		$dbw = wfGetDB( DB_MASTER );
 
 		$row = [];
 
 		foreach ( $this->property as $key => $value ) {
-			if ( !is_null ( $value ) ) {
+			if ( !is_null( $value ) ) {
 				$row[$key] = $value;
 			}
 		}
@@ -250,7 +248,7 @@ class MarkAsHelpfulItem {
 			$conds,
 			__METHOD__,
 			[ 'LIMIT' => 1 ] 
-		);
+ );
 
 		$list = [];
 

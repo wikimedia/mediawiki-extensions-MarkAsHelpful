@@ -23,7 +23,7 @@ class ApiGetMarkAsHelpfulItem extends ApiBase {
 		if ( $isAbleToShow ) {
 			$HelpfulUserList = MarkAsHelpfulItem::getMarkAsHelpfulList( $params['type'], $params['item'] );
 
-			if ( $params['prop'] == 'metadata') {
+			if ( $params['prop'] == 'metadata' ) {
 				$data = $HelpfulUserList;
 				$format = 'metadata';
 			} else {
@@ -36,7 +36,7 @@ class ApiGetMarkAsHelpfulItem extends ApiBase {
 		} else {
 			$data = '';
 
-			if ( $params['prop'] == 'metadata') {
+			if ( $params['prop'] == 'metadata' ) {
 				$format = 'metadata';
 			} else {
 				$format = 'formatted';

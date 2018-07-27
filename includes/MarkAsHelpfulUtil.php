@@ -15,7 +15,6 @@ class MarkAsHelpfulUtil {
 	 * @return html | empty text
 	 */
 	public static function getMarkAsHelpfulTemplate( $user, $isAbleToMark, $helpfulUserList, $type, $item ) {
-		
 		if ( $user->isAnon() ) {
 			$html = self::otherMarkedTemplate( $helpfulUserList );
 		} else {
