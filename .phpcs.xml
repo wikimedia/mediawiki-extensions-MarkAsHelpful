@@ -10,7 +10,6 @@
 		<exclude name="MediaWiki.Commenting.FunctionComment.MissingReturn" />
 		<exclude name="MediaWiki.Files.ClassMatchesFilename.NotMatch" />
 		<exclude name="MediaWiki.WhiteSpace.SpaceBeforeSingleLineComment.NewLineComment" />
-		<exclude name="PSR2.Files.EndFileNewline.TooMany" />
 		<exclude name="PSR2.Methods.FunctionClosingBrace.SpacingBeforeClose" />
 		<exclude name="Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore" />
 		<exclude name="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine" />

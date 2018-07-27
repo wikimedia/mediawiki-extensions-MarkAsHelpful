@@ -71,4 +71,3 @@ $wgResourceModules['ext.markAsHelpful'] = $mahResourceTemplate + [
 		'mediawiki.util'
 	],
 ];
-
