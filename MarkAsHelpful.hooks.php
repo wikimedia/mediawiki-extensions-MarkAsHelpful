@@ -9,7 +9,7 @@ class MarkAsHelpfulHooks {
 	 */
 	public static function onPageDisplay( &$output, &$skin ) {
 		if ( self::addMarkAsHelpful( $output, $skin ) ) {
-			$output->addModules( array( 'ext.markAsHelpful' ) );
+			$output->addModules( [ 'ext.markAsHelpful' ] );
 		}
 
 		return true;

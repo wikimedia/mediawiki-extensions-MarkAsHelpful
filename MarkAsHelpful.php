@@ -10,17 +10,17 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 
 // Configuration
 // TODO: document
-$wgMarkAsHelpfulType = array();
+$wgMarkAsHelpfulType = [];
 
 // Extension credits that will show up on Special:Version
-$wgExtensionCredits['other'][] = array(
+$wgExtensionCredits['other'][] = [
 	'path' => __FILE__,
 	'name' => 'MarkAsHelpful',
 	'version' => '0.2.0',
-	'author' => array( 'Rob Moen', 'Benny Situ' ),
+	'author' => [ 'Rob Moen', 'Benny Situ' ],
 	'descriptionmsg' => 'markashelpful-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Mark_as_Helpful', // FIXME: A page in the extension namespace should be created
-);
+];
 
 $dir = __DIR__ . '/';
 // Object model
@@ -59,16 +59,16 @@ $wgGroupPermissions['sysop']['markashelpful-admin'] = true;
 $wgMessagesDirs['MarkAsHelpful'] = __DIR__ . '/i18n';
 
 // Resources
-$mahResourceTemplate = array(
+$mahResourceTemplate = [
 	'localBasePath' => $dir . 'modules',
 	'remoteExtPath' => 'MarkAsHelpful/modules'
-);
+];
 
-$wgResourceModules['ext.markAsHelpful'] = $mahResourceTemplate + array(
+$wgResourceModules['ext.markAsHelpful'] = $mahResourceTemplate + [
 	'styles' => 'ext.markAsHelpful/ext.markAsHelpful.css',
 	'scripts' => 'ext.markAsHelpful/ext.markAsHelpful.js',
-	'dependencies' => array(
+	'dependencies' => [
 		'mediawiki.util'
-	),
-);
+	],
+];
 

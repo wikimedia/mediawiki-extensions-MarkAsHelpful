@@ -5,7 +5,7 @@
 class MarkAsHelpfulItem {
 
 	// database field definition
-	protected $property = array(
+	protected $property = [
 		'mah_id' => null,
 		'mah_type' => null,
 		'mah_item' => null,
@@ -17,7 +17,7 @@ class MarkAsHelpfulItem {
 		'mah_system_type' => null,
 		'mah_user_agent' => null,
 		'mah_locale' => null
-	);
+	];
 
 	protected $user;
 	protected $loadedFromDatabase = false;
@@ -143,7 +143,7 @@ class MarkAsHelpfulItem {
 
 		$searchKey = implode( ',', $searchKey );
 
-		$allowableSearchKey = array( 'mah_id', 'mah_item,mah_type,mah_user_id' );
+		$allowableSearchKey = [ 'mah_id', 'mah_item,mah_type,mah_user_id' ];
 
 		if ( !in_array( $searchKey, $allowableSearchKey ) ) {
 			throw new MWMarkAsHelpFulItemSearchKeyException( 'Invalid search key!' );
@@ -152,8 +152,8 @@ class MarkAsHelpfulItem {
 		$dbr = wfGetDB( DB_SLAVE );
 
 		$res = $dbr->selectRow(
-			array( 'mark_as_helpful' ),
-			array( '*' ),
+			[ 'mark_as_helpful' ],
+			[ '*' ],
 			$conds,
 			__METHOD__
 		);
@@ -178,7 +178,7 @@ class MarkAsHelpfulItem {
 		
 		$dbw = wfGetDB( DB_MASTER );
 
-		$row = array();
+		$row = [];
 
 		foreach ( $this->property as $key => $value ) {
 			if ( !is_null ( $value ) ) {
@@ -187,7 +187,7 @@ class MarkAsHelpfulItem {
 		}
 
 		$this->property['mah_id'] = $dbw->nextSequenceValue( 'mark_as_helpful_mah_id' );
-		$dbw->insert( 'mark_as_helpful', $row, __METHOD__, array( 'IGNORE' ) );
+		$dbw->insert( 'mark_as_helpful', $row, __METHOD__, [ 'IGNORE' ] );
 		$this->setProperty( 'mah_id', $dbw->insertId() );
 		
 	}
@@ -205,7 +205,7 @@ class MarkAsHelpfulItem {
 
 			// Attempt to load from database if not loaded yet
 			if ( !$this->loadedFromDatabase ) {
-				if ( !$this->loadFromDatabase( array( 'mah_id' => $this->getProperty( 'mah_id' ) ) ) ) {
+				if ( !$this->loadFromDatabase( [ 'mah_id' => $this->getProperty( 'mah_id' ) ] ) ) {
 					return;
 				}
 			}
@@ -220,7 +220,7 @@ class MarkAsHelpfulItem {
 
 				$dbw->delete(
 					'mark_as_helpful',
-					array( 'mah_id' => $this->getProperty( 'mah_id' ) ),
+					[ 'mah_id' => $this->getProperty( 'mah_id' ) ],
 					__METHOD__
 				);
 			}
@@ -236,27 +236,27 @@ class MarkAsHelpfulItem {
 	public static function getMarkAsHelpfulList( $type, $item ) {
 		$dbr = wfGetDB( DB_SLAVE );
 
-		$conds = array(
+		$conds = [
 			'mah_type' => $type,
 			'mah_item' => intval( $item )
-		);
+		];
 
 		$conds[] = 'mah_user_id = user_id';
 		
 		// Grab only one record for the 1st phase
 		$res = $dbr->select(
-			array( 'mark_as_helpful', 'user' ),
-			array( 'mah_id', 'user_id', 'user_name' ),
+			[ 'mark_as_helpful', 'user' ],
+			[ 'mah_id', 'user_id', 'user_name' ],
 			$conds,
 			__METHOD__,
-			array( 'LIMIT' => 1 ) 
+			[ 'LIMIT' => 1 ] 
 		);
 
-		$list = array();
+		$list = [];
 
 		foreach ( $res as $val ) {
-			$list[$val->user_id] = array( 'user_name' => $val->user_name,
-				'user_id' => $val->user_id );
+			$list[$val->user_id] = [ 'user_name' => $val->user_name,
+				'user_id' => $val->user_id ];
 		}
 
 		return $list;

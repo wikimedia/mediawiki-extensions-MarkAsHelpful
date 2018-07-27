@@ -18,7 +18,7 @@ class ApiGetMarkAsHelpfulItem extends ApiBase {
 		// check if the page has permission to request the item
 		$isAbleToShow = false;
 
-		Hooks::run( 'onMarkItemAsHelpful', array( $params['type'], $params['item'], $wgUser, &$isAbleToMark, $page, &$isAbleToShow ) );
+		Hooks::run( 'onMarkItemAsHelpful', [ $params['type'], $params['item'], $wgUser, &$isAbleToMark, $page, &$isAbleToShow ] );
 
 		if ( $isAbleToShow ) {
 			$HelpfulUserList = MarkAsHelpfulItem::getMarkAsHelpfulList( $params['type'], $params['item'] );
@@ -44,41 +44,41 @@ class ApiGetMarkAsHelpfulItem extends ApiBase {
 			}	
 		}
 
-		$result = array( 'result' => 'success', $format => $data );
+		$result = [ 'result' => 'success', $format => $data ];
 		$this->getResult()->addValue( null, $this->getModuleName(), $result );
 	}
 
 	public function getAllowedParams() {
 		global $wgMarkAsHelpfulType;
 
-		return array(
-			'type' => array(
+		return [
+			'type' => [
 				ApiBase::PARAM_REQUIRED => true,
 				ApiBase::PARAM_TYPE => $wgMarkAsHelpfulType,
-			),
-			'item' => array(
+			],
+			'item' => [
 				ApiBase::PARAM_REQUIRED => true,
 				ApiBase::PARAM_TYPE => 'integer'
-			),
-			'prop' => array(
-				ApiBase::PARAM_TYPE => array( 'metadata', 'formatted' ),
-			),
-			'page' => array(
+			],
+			'prop' => [
+				ApiBase::PARAM_TYPE => [ 'metadata', 'formatted' ],
+			],
+			'page' => [
 				ApiBase::PARAM_REQUIRED => true,
-			),
-		);
+			],
+		];
 	}
 
 	/**
 	 * @deprecated since MediaWiki core 1.25
 	 */
 	public function getParamDescription() {
-		return array(
+		return [
 			'type' => 'The object type that is being marked as helpful',
 			'item' => 'The object item that is being marked as helpful',
 			'prop' => 'Which property to get',
 			'page' => 'The page which is requesting the item',
-		);
+		];
 	}
 
 	/**

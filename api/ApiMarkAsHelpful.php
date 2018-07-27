@@ -6,7 +6,7 @@ class ApiMarkAsHelpful extends ApiBase {
 		global $wgUser;
 
 		if ( $wgUser->isBlocked( false ) ) {
-			$this->dieUsageMsg( array( 'blockedtext' ) );
+			$this->dieUsageMsg( [ 'blockedtext' ] );
 		}
 
 		// Disallow anonymous user to mark/unmark an 'Mark As Helpful' item
@@ -28,7 +28,7 @@ class ApiMarkAsHelpful extends ApiBase {
 		$isAbleToShow = false;
 
 		// Gives other extension the last chance to specify mark as helpful permission rules
-		Hooks::run( 'onMarkItemAsHelpful', array( $params['type'], $params['item'], $wgUser, &$isAbleToMark, $page, &$isAbleToShow ) );
+		Hooks::run( 'onMarkItemAsHelpful', [ $params['type'], $params['item'], $wgUser, &$isAbleToMark, $page, &$isAbleToShow ] );
 
 		if ( !$isAbleToShow || !$isAbleToMark ) {
 			$this->noPermissionError();
@@ -46,9 +46,9 @@ class ApiMarkAsHelpful extends ApiBase {
 			case 'unmark':
 				$item = new MarkAsHelpfulItem();
 
-				$conds = array( 'mah_type' => $params['type'],
+				$conds = [ 'mah_type' => $params['type'],
 						'mah_item' => $params['item'],
-						'mah_user_id' => $wgUser->getId() );
+						'mah_user_id' => $wgUser->getId() ];
 
 				$status = $item->loadFromDatabase( $conds );
 
@@ -64,9 +64,9 @@ class ApiMarkAsHelpful extends ApiBase {
 		}
 
 		if ( $error === false ) {
-			$result = array( 'result' => 'success' );
+			$result = [ 'result' => 'success' ];
 		} else {
-			$result = array( 'result' => 'error', 'error' => 'mah-action-error' );
+			$result = [ 'result' => 'error', 'error' => 'mah-action-error' ];
 		}
 		$this->getResult()->addValue( null, $this->getModuleName(), $result );
 	}
@@ -86,27 +86,27 @@ class ApiMarkAsHelpful extends ApiBase {
 	public function getAllowedParams() {
 		global $wgMarkAsHelpfulType;
 
-		return array(
-			'mahaction' => array(
+		return [
+			'mahaction' => [
 				ApiBase::PARAM_REQUIRED => true,
-				ApiBase::PARAM_TYPE => array( 'mark', 'unmark' ),
-			),
-			'page' => array(
+				ApiBase::PARAM_TYPE => [ 'mark', 'unmark' ],
+			],
+			'page' => [
 				ApiBase::PARAM_REQUIRED => true,
-			),
-			'type' => array(
+			],
+			'type' => [
 				ApiBase::PARAM_REQUIRED => true,
 				ApiBase::PARAM_TYPE => $wgMarkAsHelpfulType,
-			),
-			'item' => array(
+			],
+			'item' => [
 				ApiBase::PARAM_REQUIRED => true,
 				ApiBase::PARAM_TYPE => 'integer'
-			),
+			],
 			'useragent' => null,
 			'system' => null,
 			'locale' => null,
 			'token' => null,
-		);
+		];
 	}
 
 	public function mustBePosted() {
@@ -121,7 +121,7 @@ class ApiMarkAsHelpful extends ApiBase {
 	 * @deprecated since MediaWiki core 1.25
 	 */
 	public function getParamDescription() {
-		return array(
+		return [
 			'mahaction' => 'the mark or unmark an item as helpful',
 			'page' => 'The page which the item to be marked is on',
 			'type' => 'The object type that is being marked as helpful',
@@ -130,7 +130,7 @@ class ApiMarkAsHelpful extends ApiBase {
 			'system' => 'The operating system being used',
 			'locale' => 'The locale in use',
 			'token' => 'An edit token',
-		);
+		];
 	}
 
 	/**
