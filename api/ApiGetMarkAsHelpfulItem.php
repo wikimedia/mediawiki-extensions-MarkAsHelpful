@@ -14,7 +14,7 @@ class ApiGetMarkAsHelpfulItem extends ApiBase {
 		}
 
 		// check if current user has permission to mark the item,
-		$isAbleToMark = false; 
+		$isAbleToMark = false;
 		// check if the page has permission to request the item
 		$isAbleToShow = false;
 
@@ -40,7 +40,7 @@ class ApiGetMarkAsHelpfulItem extends ApiBase {
 				$format = 'metadata';
 			} else {
 				$format = 'formatted';
-			}	
+			}
 		}
 
 		$result = [ 'result' => 'success', $format => $data ];
@@ -89,4 +89,5 @@ class ApiGetMarkAsHelpfulItem extends ApiBase {
 
 }
 
-class MWApiGetMarkAsHelpfulItemInvalidPageException extends Exception {}
+class MWApiGetMarkAsHelpfulItemInvalidPageException extends Exception {
+}

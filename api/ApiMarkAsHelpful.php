@@ -21,9 +21,9 @@ class ApiMarkAsHelpful extends ApiBase {
 		if ( !$page ) {
 			throw new MWApiMarkAsHelpfulInvalidPageException( 'Invalid page!' );
 		}
-		
+
 		// check if current user has permission to mark the item,
-		$isAbleToMark = false; 
+		$isAbleToMark = false;
 		// check if the page has permission to request the item
 		$isAbleToShow = false;
 
@@ -142,5 +142,7 @@ class ApiMarkAsHelpful extends ApiBase {
 
 }
 
-class MWApiMarkAsHelpfulInvalidActionException extends Exception {}
-class MWApiMarkAsHelpfulInvalidPageException extends Exception {}
+class MWApiMarkAsHelpfulInvalidActionException extends Exception {
+}
+class MWApiMarkAsHelpfulInvalidPageException extends Exception {
+}

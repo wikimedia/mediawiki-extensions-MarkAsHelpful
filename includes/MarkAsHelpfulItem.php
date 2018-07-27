@@ -64,7 +64,7 @@ class MarkAsHelpfulItem {
 			if ( $this->loadedFromDatabase ) {
 				if ( $this->getProperty( 'mah_user_id' ) ) {
 					$this->user = User::newFromId( $this->getProperty( 'mah_user_id' ) );
-				} 
+				}
 			} else {
 				global $wgUser;
 
@@ -98,7 +98,7 @@ class MarkAsHelpfulItem {
 		if ( $wgUser->isAnon() ) {
 			throw new MWMarkAsHelpFulItemPropertyException( 'User not logged in!' );
 		}
-		
+
 		$this->setProperty( 'mah_user_id', $wgUser->getId() );
 		$this->setProperty( 'mah_user_editcount', $wgUser->getEditCount() );
 
@@ -239,14 +239,14 @@ class MarkAsHelpfulItem {
 		];
 
 		$conds[] = 'mah_user_id = user_id';
-		
+
 		// Grab only one record for the 1st phase
 		$res = $dbr->select(
 			[ 'mark_as_helpful', 'user' ],
 			[ 'mah_id', 'user_id', 'user_name' ],
 			$conds,
 			__METHOD__,
-			[ 'LIMIT' => 1 ] 
+			[ 'LIMIT' => 1 ]
  );
 
 		$list = [];
@@ -260,5 +260,7 @@ class MarkAsHelpfulItem {
 	}
 }
 
-class MWMarkAsHelpFulItemPropertyException extends Exception {}
-class MWMarkAsHelpFulItemSearchKeyException extends Exception {}
+class MWMarkAsHelpFulItemPropertyException extends Exception {
+}
+class MWMarkAsHelpFulItemSearchKeyException extends Exception {
+}

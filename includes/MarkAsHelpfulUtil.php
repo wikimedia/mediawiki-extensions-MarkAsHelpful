@@ -33,7 +33,7 @@ class MarkAsHelpfulUtil {
 		}
 		return $html;
 	}
-	
+
 	/**
 	 * The template to display in this format: {{user name or ip}} thinks this is helpful
 	 * @param $helpfulUserList array - List of users that mark the item as helpful
@@ -45,14 +45,14 @@ class MarkAsHelpfulUtil {
 		}
 
 		reset( $helpfulUserList );
-		
+
 		$user = current( $helpfulUserList );
-		
+
 		// show the first user 'in mark as helpful' template
-		$data = wfMessage( 'mah-someone-marked-text' )->params( $user['user_name'] )->escaped();	
-		
+		$data = wfMessage( 'mah-someone-marked-text' )->params( $user['user_name'] )->escaped();
+
 		// Add other user in user list to a hidden div, this is for future enhancement
-		
+
 		return <<<HTML
 			<div class='mw-mah-wrapper'>
 				<span class='mah-helpful-marked-state'>
@@ -64,7 +64,7 @@ HTML;
 
 	/**
 	 * The template to display in this format: You think this is helpful
-	 * @todo future enhancement: We may pass the list of other users as well 
+	 * @todo future enhancement: We may pass the list of other users as well
 	 *       so we can put them in hidden div
 	 * @return string html
 	 */
