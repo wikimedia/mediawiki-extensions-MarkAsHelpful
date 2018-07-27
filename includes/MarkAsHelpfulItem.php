@@ -149,7 +149,7 @@ class MarkAsHelpfulItem {
 			throw new MWMarkAsHelpFulItemSearchKeyException( 'Invalid search key!' );
 		}
 
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 
 		$res = $dbr->selectRow(
 			[ 'mark_as_helpful' ],
@@ -234,7 +234,7 @@ class MarkAsHelpfulItem {
 	 * @return array
 	 */
 	public static function getMarkAsHelpfulList( $type, $item ) {
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 
 		$conds = [
 			'mah_type' => $type,
