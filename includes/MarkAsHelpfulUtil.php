@@ -65,7 +65,7 @@ HTML;
 
 	/**
 	 * The template to display in this format: You think this is helpful
-	 * @Todo future enhancement: We may pass the list of other users as well 
+	 * @todo future enhancement: We may pass the list of other users as well 
 	 *       so we can put them in hidden div
 	 * @return string html
 	 */
