@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rob Moen"
+			"Rob Moen",
+			"MarcoAurelio"
 		]
 	},
 	"markashelpful-desc": "Provides a user interface to mark comments as helpful",
@@ -10,6 +11,8 @@
 	"mah-someone-marked-text": "{{GENDER:$1|$1 thinks this is helpful}}",
 	"mah-undo-mark-text": "undo",
 	"mah-action-error": "There was an error performing this action",
+	"right-markashelpful-view": "",
+	"right-markashelpful-admin": "",
 	"apihelp-getmarkashelpfulitem-description": "Get a list of all helpful status for an object item.",
 	"apihelp-getmarkashelpfulitem-summary": "Get a list of all helpful status for an object item.",
 	"apihelp-getmarkashelpfulitem-param-type": "The object type that is being marked as helpful.",
