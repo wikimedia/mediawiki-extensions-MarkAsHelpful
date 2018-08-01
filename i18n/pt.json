@@ -26,5 +26,5 @@
 	"apihelp-markashelpful-param-item": "O objeto que está a ser marcado como útil.",
 	"apihelp-markashelpful-param-useragent": "O cabeçalho User-Agent do browser.",
 	"apihelp-markashelpful-param-system": "O sistema operativo que está a ser utilizado.",
-	"apihelp-markashelpful-param-locale": "A configuração regional (''locale'') que está a ser utilizada."
+	"apihelp-markashelpful-param-locale": "A configuração regional ''(locale)'' que está a ser utilizada."
 }
