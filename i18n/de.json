@@ -20,6 +20,7 @@
 	"apihelp-getmarkashelpfulitem-param-prop": "Zurückzugebende Eigenschaft:",
 	"apihelp-getmarkashelpfulitem-param-page": "Die Seite, die das Objekt anfragt.",
 	"apihelp-markashelpful-description": "Erlaubt es Benutzern, ein Objektelement in der Website als hilfreich zu markieren oder entmarkieren.",
+	"apihelp-markashelpful-summary": "Erlaubt Benutzern, ein Objekt in der Website als nützlich zu markieren oder nicht.",
 	"apihelp-markashelpful-param-mahaction": "Ob ein Element als hilfreich markiert wird oder nicht.",
 	"apihelp-markashelpful-param-page": "Die Seite, auf der das Element markiert wurde.",
 	"apihelp-markashelpful-param-type": "Der Objekttyp, der als hilfreich markiert wurde.",
