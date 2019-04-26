@@ -14,8 +14,6 @@
 	"mah-someone-marked-text": "{{GENDER:$1|$1}} meint, dass dieser Kommentar hilfreich sei.",
 	"mah-undo-mark-text": "rückgängig machen",
 	"mah-action-error": "Beim Ausführen dieser Aktion ist ein Fehler aufgetreten.",
-	"action-markashelpful-view": "",
-	"action-markashelpful-admin": "",
 	"apihelp-getmarkashelpfulitem-description": "Ruft eine Liste aller hilfreichen Statusse für ein Objektelement ab.",
 	"apihelp-getmarkashelpfulitem-param-type": "Der Objekttyp, der als hilfreich markiert wurde.",
 	"apihelp-getmarkashelpfulitem-param-item": "Das Objektelement, das als hilfreich markiert wurde.",

@@ -6,7 +6,7 @@
 			"Kly"
 		]
 	},
-	"markashelpful-desc": "提供使用者介面標記評論為有幫助",
+	"markashelpful-desc": "提供用來標記評論為有幫助的使用者介面",
 	"mah-mark-text": "標記為有幫助",
 	"mah-you-marked-text": "您認為有幫助",
 	"mah-someone-marked-text": "{{GENDER:$1|$1 認為有幫助}}",
