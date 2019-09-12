@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Tititou36"
+			"Tititou36",
+			"Verdy p"
 		]
 	},
 	"markashelpful-desc": "Fournit une interface utilisateur pour marquer les commentaires comme utiles",
@@ -10,7 +11,7 @@
 	"mah-you-marked-text": "Vous pensez que cela est utile",
 	"mah-someone-marked-text": "{{GENDER:$1|$1}} pense que cela est utile",
 	"mah-undo-mark-text": "annuler",
-	"mah-action-error": "Il y a eu une erreur en exécutant cette action",
+	"mah-action-error": "Une erreur est survenue en exécutant cette action",
 	"apihelp-getmarkashelpfulitem-description": "Obtenir une liste de tous les états utiles pour un élément objet.",
 	"apihelp-getmarkashelpfulitem-summary": "Obtenir une liste de tous les états utiles pour un élément objet.",
 	"apihelp-getmarkashelpfulitem-param-type": "Le type d’objet qui a été marqué comme utile.",
