@@ -9,7 +9,7 @@
 	"markashelpful-desc": "Fournit une interface utilisateur pour marquer les commentaires comme utiles",
 	"mah-mark-text": "Marquer comme utile",
 	"mah-you-marked-text": "Vous pensez que cela est utile",
-	"mah-someone-marked-text": "{{GENDER:$1|$1}} pense que cela est utile",
+	"mah-someone-marked-text": "{{GENDER:$1|}}$1 pense que cela est utile",
 	"mah-undo-mark-text": "annuler",
 	"mah-action-error": "Une erreur est survenue en exécutant cette action",
 	"apihelp-getmarkashelpfulitem-description": "Obtenir une liste de tous les états utiles pour un élément objet.",
@@ -26,5 +26,5 @@
 	"apihelp-markashelpful-param-item": "L’élément objet qui est marqué comme utile.",
 	"apihelp-markashelpful-param-useragent": "L’entête User-Agent du navigateur.",
 	"apihelp-markashelpful-param-system": "Le système d’exploitation utilisé.",
-	"apihelp-markashelpful-param-locale": "Les paramètres locaux utilisés."
+	"apihelp-markashelpful-param-locale": "Les paramètres régionaux utilisés."
 }
