@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rancher"
+			"Rancher",
+			"BadDog"
 		]
 	},
-	"markashelpful-desc": "Пружа корисничко окружење за означавање коментара као корисних (тј. од помоћи)",
+	"markashelpful-desc": "Обезбеђује кориснички интерфејс за означавање коментара корисним",
 	"mah-mark-text": "Означи као корисно",
 	"mah-you-marked-text": "Сматрате да је ово корисно",
 	"mah-someone-marked-text": "{{GENDER:$1|$1}} мисли да је ово корисно",
