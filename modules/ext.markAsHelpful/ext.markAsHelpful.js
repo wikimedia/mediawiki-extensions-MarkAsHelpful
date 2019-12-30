@@ -104,7 +104,7 @@
 				page: mw.config.get( 'wgPageName' ),
 				useragent: clientData.name + '/' + clientData.versionNumber,
 				system: clientData.platform,
-				token: mw.user.tokens.get( 'editToken' )
+				token: mw.user.tokens.get( 'csrfToken' )
 			}, props );
 
 			$.ajax( {
