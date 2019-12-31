@@ -3,8 +3,7 @@
 class ApiGetMarkAsHelpfulItem extends ApiBase {
 
 	public function execute() {
-		global $wgUser;
-
+		$user = $this->getUser();
 		$params = $this->extractRequestParams();
 
 		$page = Title::newFromText( $params['page'] );
@@ -18,7 +17,7 @@ class ApiGetMarkAsHelpfulItem extends ApiBase {
 		// check if the page has permission to request the item
 		$isAbleToShow = false;
 
-		Hooks::run( 'onMarkItemAsHelpful', [ $params['type'], $params['item'], $wgUser, &$isAbleToMark, $page, &$isAbleToShow ] );
+		Hooks::run( 'onMarkItemAsHelpful', [ $params['type'], $params['item'], $user, &$isAbleToMark, $page, &$isAbleToShow ] );
 
 		if ( $isAbleToShow ) {
 			$HelpfulUserList = MarkAsHelpfulItem::getMarkAsHelpfulList( $params['type'], $params['item'] );
@@ -28,7 +27,7 @@ class ApiGetMarkAsHelpfulItem extends ApiBase {
 				$format = 'metadata';
 			} else {
 				$data = MarkAsHelpfulUtil::getMarkAsHelpfulTemplate(
-					$wgUser, $isAbleToMark, $HelpfulUserList, $params['type'],
+					$user, $isAbleToMark, $HelpfulUserList, $params['type'],
 					$params['item']
 				);
 				$format = 'formatted';

@@ -57,18 +57,17 @@ class MarkAsHelpfulItem {
 
 	/**
 	 * get the owner of the 'mark as helpful' item
-	 * @return User
+	 * @param User|null $backUpUser backup user if this->user isn't set, and not loadedFromDatabase
+	 * @return User|null
 	 */
-	public function getUser() {
+	private function getUser( ?User $backUpUser ) {
 		if ( !$this->user ) {
 			if ( $this->loadedFromDatabase ) {
 				if ( $this->getProperty( 'mah_user_id' ) ) {
 					$this->user = User::newFromId( $this->getProperty( 'mah_user_id' ) );
 				}
 			} else {
-				global $wgUser;
-
-				$this->user = $wgUser;
+				$this->user = $backUpUser;
 			}
 		}
 
@@ -78,10 +77,11 @@ class MarkAsHelpfulItem {
 	/**
 	 * Load data into object from external data
 	 * @param $params array - an array of data to be loaded into the object
+	 * @param $user User
 	 * @exception MWMarkAsHelpFulItemPropertyException
 	 */
-	public function loadFromRequest( $params ) {
-		global $wgUser, $wgMarkAsHelpfulType;
+	public function loadFromRequest( $params, User $user ) {
+		global $wgMarkAsHelpfulType;
 
 		if ( isset( $params['type'] ) && in_array( $params['type'], $wgMarkAsHelpfulType ) ) {
 			$this->setProperty( 'mah_type', $params['type'] );
@@ -95,12 +95,12 @@ class MarkAsHelpfulItem {
 			throw new MWMarkAsHelpFulItemPropertyException( 'Invalid item!' );
 		}
 
-		if ( $wgUser->isAnon() ) {
+		if ( $user->isAnon() ) {
 			throw new MWMarkAsHelpFulItemPropertyException( 'User not logged in!' );
 		}
 
-		$this->setProperty( 'mah_user_id', $wgUser->getId() );
-		$this->setProperty( 'mah_user_editcount', $wgUser->getEditCount() );
+		$this->setProperty( 'mah_user_id', $user->getId() );
+		$this->setProperty( 'mah_user_editcount', $user->getEditCount() );
 
 		if ( isset( $params['page'] ) ) {
 			$page = Title::newFromText( $params['page'] );
@@ -207,7 +207,7 @@ class MarkAsHelpfulItem {
 				}
 			}
 
-			$user = $this->getUser();
+			$user = $this->getUser( $currentUser );
 
 			if ( !$user || $user->isAnon() ) {
 				return;

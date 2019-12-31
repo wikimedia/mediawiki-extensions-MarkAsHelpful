@@ -3,14 +3,14 @@
 class ApiMarkAsHelpful extends ApiBase {
 
 	public function execute() {
-		global $wgUser;
+		$user = $this->getUser();
 
-		if ( $wgUser->isBlocked( false ) ) {
+		if ( $user->isBlocked( false ) ) {
 			$this->dieUsageMsg( [ 'blockedtext' ] );
 		}
 
 		// Disallow anonymous user to mark/unmark an 'Mark As Helpful' item
-		if ( $wgUser->isAnon() ) {
+		if ( $user->isAnon() ) {
 			$this->noPermissionError();
 		}
 
@@ -28,7 +28,7 @@ class ApiMarkAsHelpful extends ApiBase {
 		$isAbleToShow = false;
 
 		// Gives other extension the last chance to specify mark as helpful permission rules
-		Hooks::run( 'onMarkItemAsHelpful', [ $params['type'], $params['item'], $wgUser, &$isAbleToMark, $page, &$isAbleToShow ] );
+		Hooks::run( 'onMarkItemAsHelpful', [ $params['type'], $params['item'], $user, &$isAbleToMark, $page, &$isAbleToShow ] );
 
 		if ( !$isAbleToShow || !$isAbleToMark ) {
 			$this->noPermissionError();
@@ -39,7 +39,7 @@ class ApiMarkAsHelpful extends ApiBase {
 		switch ( $params['mahaction'] ) {
 			case 'mark':
 				$item = new MarkAsHelpfulItem();
-				$item->loadFromRequest( $params );
+				$item->loadFromRequest( $params, $user );
 				$item->mark();
 				break;
 
@@ -48,12 +48,12 @@ class ApiMarkAsHelpful extends ApiBase {
 
 				$conds = [ 'mah_type' => $params['type'],
 						'mah_item' => $params['item'],
-						'mah_user_id' => $wgUser->getId() ];
+						'mah_user_id' => $user->getId() ];
 
 				$status = $item->loadFromDatabase( $conds );
 
 				if ( $status ) {
-					$item->unmark( $wgUser );
+					$item->unmark( $user );
 				} else {
 					$error = true;
 				}
