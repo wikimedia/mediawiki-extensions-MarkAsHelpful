@@ -179,7 +179,7 @@ class MarkAsHelpfulItem {
 		$row = [];
 
 		foreach ( $this->property as $key => $value ) {
-			if ( !is_null( $value ) ) {
+			if ( $value !== null ) {
 				$row[$key] = $value;
 			}
 		}
