@@ -4,7 +4,7 @@
  * @author Rob Moen, 2011
  */
 
-( function ( $, mw ) {
+( function () {
 
 	var mah = mw.markAsHelpful = {
 		loadedItems: [],
@@ -12,10 +12,10 @@
 		selector: '[class^="markashelpful"]',
 
 		init: function () {
-			var	props, thisItem;
+			var props, thisItem;
 
 			$( mah.selector ).each( function ( i, el ) {
-				props = mah.getItemProperties( $(el) );
+				props = mah.getItemProperties( $( el ) );
 				// Create an item reference to place in the loaded items array.
 				thisItem = props.type + props.item;
 
@@ -25,7 +25,7 @@
 					mah.loadedItems.push( thisItem );
 					mah.loadItem( $( el ) );
 				}
-			});
+			} );
 		},
 
 		/**
@@ -40,9 +40,9 @@
 			// out non html 5 objects. (eg. data-markashelpful-item)
 			props = {
 				// item id
-				item: tag.split( '-' )[2],
+				item: tag.split( '-' )[ 2 ],
 				// item type (eg, mbresponse)
-				type: tag.split( '-' )[1]
+				type: tag.split( '-' )[ 1 ]
 			};
 			return props;
 		},
@@ -63,9 +63,9 @@
 				page: mw.config.get( 'wgPageName' )
 			};
 
-			$.ajax({
+			$.ajax( {
 				type: 'POST',
-				url: mw.util.wikiScript('api'),
+				url: mw.util.wikiScript( 'api' ),
 				cache: false,
 				data: request,
 				success: function ( data ) {
@@ -84,7 +84,7 @@
 					// Failure, do nothing to the item for now
 				},
 				dataType: 'json'
-			});
+			} );
 
 		},
 
@@ -121,7 +121,7 @@
 
 	// Some live events for the different modes
 
-	$(document).ready( function () {
+	$( document ).ready( function () {
 
 		/**
 		 * Click Event for marking an item as helpful.
@@ -141,4 +141,4 @@
 		mah.init();
 	} );
 
-}( jQuery, mediaWiki ) );
+}() );
