@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rancher",
-			"BadDog"
+			"BadDog",
+			"Rancher"
 		]
 	},
 	"markashelpful-desc": "Обезбеђује кориснички интерфејс за означавање коментара корисним",

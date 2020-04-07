@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Luckas",
-			"Eduardo Addad de Oliveira"
+			"Eduardo Addad de Oliveira",
+			"Luckas"
 		]
 	},
 	"markashelpful-desc": "Fornece uma interface de usuário para marcar comentários como úteis",

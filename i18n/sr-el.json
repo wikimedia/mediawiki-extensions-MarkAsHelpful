@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"markashelpful-desc": "Pruža korisničko okruženje za označavanje komentara kao korisnih (tj. od pomoći)",
 	"mah-mark-text": "Označi kao korisno",
 	"mah-you-marked-text": "Smatrate da je ovo korisno",

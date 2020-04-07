@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siebrand",
 			"Esketti",
-			"Mar(c)"
+			"Mar(c)",
+			"Siebrand"
 		]
 	},
 	"markashelpful-desc": "Biedt een gebruikersinterface om opmerkingen als nuttig te markeren",

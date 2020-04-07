@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"2nd-player",
 			"Fryed-peach",
-			"Shirayuki",
 			"Otokoume",
-			"2nd-player"
+			"Shirayuki"
 		]
 	},
 	"markashelpful-desc": "コメントに「役に立つ」の印を付けるユーザーインターフェイスを提供する",

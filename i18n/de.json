@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kghbln",
-			"Purodha",
-			"Metalhead64",
 			"Inkowik",
-			"Man77"
+			"Kghbln",
+			"Man77",
+			"Metalhead64",
+			"Purodha"
 		]
 	},
 	"markashelpful-desc": "Ermöglicht das Markieren von Kommentaren als hilfreich",

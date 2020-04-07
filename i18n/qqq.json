@@ -2,10 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Kaganer",
+			"MarcoAurelio",
 			"Rob Moen",
 			"Shirayuki",
-			"Umherirrender",
-			"MarcoAurelio"
+			"Umherirrender"
 		]
 	},
 	"markashelpful-desc": "{{desc|name=Mark As Helpful|url=https://www.mediawiki.org/wiki/Extension:MarkAsHelpful}}\nThis is a feature in development.",
