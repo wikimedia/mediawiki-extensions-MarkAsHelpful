@@ -24,7 +24,7 @@ class MarkAsHelpfulItem {
 
 	/**
 	 * Constructor
-	 * @param $mah_id int - an id that represents a unique mark as helpful record
+	 * @param int|null $mah_id - an id that represents a unique mark as helpful record
 	 */
 	public function __construct( $mah_id = null ) {
 		if ( $mah_id == intval( $mah_id ) ) {
@@ -34,7 +34,7 @@ class MarkAsHelpfulItem {
 
 	/**
 	 * Getter method
-	 * @param $key string - the name of a property
+	 * @param string $key - the name of a property
 	 */
 	public function getProperty( $key ) {
 		if ( array_key_exists( $key, $this->property ) ) {
@@ -46,8 +46,8 @@ class MarkAsHelpfulItem {
 
 	/**
 	 * Setter method
-	 * @param $key string - the name of the property
-	 * @param $value mixed - the value of the property
+	 * @param string $key - the name of the property
+	 * @param mixed $value - the value of the property
 	 */
 	public function setProperty( $key, $value ) {
 		if ( array_key_exists( $key, $this->property ) ) {
