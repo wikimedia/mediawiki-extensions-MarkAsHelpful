@@ -24,7 +24,7 @@ class MarkAsHelpfulItem {
 
 	/**
 	 * Constructor
-	 * @param int|null $mah_id - an id that represents a unique mark as helpful record
+	 * @param int|null $mah_id an id that represents a unique mark as helpful record
 	 */
 	public function __construct( $mah_id = null ) {
 		if ( $mah_id == intval( $mah_id ) ) {
@@ -34,7 +34,8 @@ class MarkAsHelpfulItem {
 
 	/**
 	 * Getter method
-	 * @param string $key - the name of a property
+	 * @param string $key the name of a property
+	 * @return mixed|null
 	 */
 	public function getProperty( $key ) {
 		if ( array_key_exists( $key, $this->property ) ) {
@@ -46,8 +47,8 @@ class MarkAsHelpfulItem {
 
 	/**
 	 * Setter method
-	 * @param string $key - the name of the property
-	 * @param mixed $value - the value of the property
+	 * @param string $key the name of the property
+	 * @param mixed $value the value of the property
 	 */
 	public function setProperty( $key, $value ) {
 		if ( array_key_exists( $key, $this->property ) ) {
@@ -76,9 +77,9 @@ class MarkAsHelpfulItem {
 
 	/**
 	 * Load data into object from external data
-	 * @param $params array - an array of data to be loaded into the object
-	 * @param $user User
-	 * @exception MWMarkAsHelpFulItemPropertyException
+	 * @param array $params an array of data to be loaded into the object
+	 * @param User $user
+	 * @throws MWMarkAsHelpFulItemPropertyException
 	 */
 	public function loadFromRequest( $params, User $user ) {
 		global $wgMarkAsHelpfulType;
@@ -128,8 +129,9 @@ class MarkAsHelpfulItem {
 
 	/**
 	 * Load from database
-	 * @param $conds Array: keys to load unique item from database, it must be one of the allowed keys
-	 * @exception MWMarkAsHelpFulItemSearchKeyException
+	 * @param array $conds keys to load unique item from database, it must be one of the allowed keys
+	 * @return bool
+	 * @throws MWMarkAsHelpFulItemSearchKeyException
 	 */
 	public function loadFromDatabase( $conds ) {
 		$searchKey = array_keys( $conds );
@@ -191,7 +193,7 @@ class MarkAsHelpfulItem {
 
 	/**
 	 * Unmark an item as helpful, we don't allow anonymous user to unmark an item
-	 * @param $currentUser User - the current user who is browsing the site
+	 * @param User $currentUser the current user who is browsing the site
 	 */
 	public function unmark( $currentUser ) {
 		if ( $currentUser->isAnon() ) {
@@ -226,8 +228,8 @@ class MarkAsHelpfulItem {
 
 	/**
 	 * Get a list of all users that marked this item as helpful
-	 * @param $type string - the object type
-	 * @param $item int - the object id
+	 * @param string $type the object type
+	 * @param int $item the object id
 	 * @return array
 	 */
 	public static function getMarkAsHelpfulList( $type, $item ) {

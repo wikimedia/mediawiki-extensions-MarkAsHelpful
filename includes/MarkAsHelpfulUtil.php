@@ -7,12 +7,12 @@ class MarkAsHelpfulUtil {
 
 	/**
 	 * Generate 'mark as helpful' template for current user
-	 * @param $user Object - The current user
-	 * @param $isAbleToMark bool - flag to check if the user is able to mark the item as helpful
-	 * @param $helpfulUserList array - list of users who have marked this item as helpful
-	 * @param $type string - the object type
-	 * @param $item int - the object id
-	 * @return html | empty text
+	 * @param User $user The current user
+	 * @param bool $isAbleToMark flag to check if the user is able to mark the item as helpful
+	 * @param array $helpfulUserList list of users who have marked this item as helpful
+	 * @param string $type the object type
+	 * @param int $item the object id
+	 * @return string html or empty text
 	 */
 	public static function getMarkAsHelpfulTemplate( $user, $isAbleToMark, $helpfulUserList, $type, $item ) {
 		if ( $user->isAnon() ) {
@@ -36,8 +36,8 @@ class MarkAsHelpfulUtil {
 
 	/**
 	 * The template to display in this format: {{user name or ip}} thinks this is helpful
-	 * @param $helpfulUserList array - List of users that mark the item as helpful
-	 * @return string html | empty text
+	 * @param array $helpfulUserList List of users that mark the item as helpful
+	 * @return string html or empty text
 	 */
 	private static function otherMarkedTemplate( $helpfulUserList ) {
 		if ( count( $helpfulUserList ) == 0 ) {
