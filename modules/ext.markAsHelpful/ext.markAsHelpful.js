@@ -30,6 +30,7 @@
 
 		/**
 		 * Return object of item properties
+		 *
 		 * @param $item
 		 */
 		getItemProperties: function ( $item ) {
@@ -49,6 +50,7 @@
 
 		/**
 		 * Load the current state of the MarkAsHelpful item
+		 *
 		 * @param $item
 		 */
 		loadItem: function ( $item ) {
@@ -90,6 +92,9 @@
 
 		/**
 		 * API call to mark or unmark an item as helpful.
+		 *
+		 * @param $clicked
+		 * @param action
 		 */
 		markItem: function ( $clicked, action ) {
 			var $item, props, clientData, request;
