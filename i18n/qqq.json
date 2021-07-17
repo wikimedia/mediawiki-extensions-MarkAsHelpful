@@ -12,7 +12,7 @@
 	"mah-mark-text": "Text to prompt the user to mark this item as helpful",
 	"mah-you-marked-text": "Text displayed to the logged in user if they mark an item helpful",
 	"mah-someone-marked-text": "Used to display username who marked as helpful. Parameters:\n* $1 - username, with GENDER support",
-	"mah-undo-mark-text": "Text for the the undo mark link.\n{{Identical|Undo}}",
+	"mah-undo-mark-text": "Text for the undo mark link.\n{{Identical|Undo}}",
 	"mah-action-error": "Generic error message",
 	"action-markashelpful-view": "{{notranslate}}\n{{doc-action|markashelpful-view}}",
 	"right-markashelpful-view": "{{notranslate}}\n{{doc-right|markashelpful-view}}",
