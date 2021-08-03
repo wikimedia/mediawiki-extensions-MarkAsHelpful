@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"A1",
+			"DDPAT",
 			"Piramidion",
 			"Ата",
 			"Тест"
@@ -27,5 +28,5 @@
 	"apihelp-markashelpful-param-item": "Елемент об'єкта, який позначають помічним.",
 	"apihelp-markashelpful-param-useragent": "Заголовок агента користувача у браузері.",
 	"apihelp-markashelpful-param-system": "Операційна система, яка використовується.",
-	"apihelp-markashelpful-param-locale": "Локаль, яка використовується."
+	"apihelp-markashelpful-param-locale": "Мова, що використовується."
 }
