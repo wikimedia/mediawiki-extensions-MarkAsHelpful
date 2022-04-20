@@ -23,7 +23,7 @@
 	"apihelp-markashelpful-param-page": "マークした項目が存在するページ",
 	"apihelp-markashelpful-param-type": "役立つとしてマークされているオブジェクトの種類。",
 	"apihelp-markashelpful-param-item": "役立つとしてマークされているオブジェクトの項目",
-	"apihelp-markashelpful-param-useragent": "ブラウザの User-Agent ヘッダー",
+	"apihelp-markashelpful-param-useragent": "ブラウザーの User-Agent ヘッダー。",
 	"apihelp-markashelpful-param-system": "オペレーティングシステムが使用されています。",
 	"apihelp-markashelpful-param-locale": "使用中のロケールです。"
 }
