@@ -186,7 +186,6 @@ class MarkAsHelpfulItem {
 			}
 		}
 
-		$this->property['mah_id'] = $dbw->nextSequenceValue( 'mark_as_helpful_mah_id' );
 		$dbw->insert( 'mark_as_helpful', $row, __METHOD__, [ 'IGNORE' ] );
 		$this->setProperty( 'mah_id', $dbw->insertId() );
 	}
