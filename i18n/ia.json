@@ -9,5 +9,20 @@
 	"mah-you-marked-text": "Tu pensa que isto es utile",
 	"mah-someone-marked-text": "{{GENDER:$1|$1 pensa que isto es utile}}",
 	"mah-undo-mark-text": "disfacer",
-	"mah-action-error": "Un error occurreva durante le execution de iste action"
+	"mah-action-error": "Un error occurreva durante le execution de iste action",
+	"apihelp-getmarkashelpfulitem-description": "Obtener un lista de tote le statos utile pro un objecto.",
+	"apihelp-getmarkashelpfulitem-summary": "Obtener un lista de tote le statos utile pro un objecto.",
+	"apihelp-getmarkashelpfulitem-param-type": "Le typo del objecto a marcar como utile.",
+	"apihelp-getmarkashelpfulitem-param-item": "Le objecto a marcar como utile.",
+	"apihelp-getmarkashelpfulitem-param-prop": "Qual proprietate obtener.",
+	"apihelp-getmarkashelpfulitem-param-page": "Le pagina que requesta le objecto.",
+	"apihelp-markashelpful-description": "Permitte que usatores marca o dismarca un objecto in le sito como utile.",
+	"apihelp-markashelpful-summary": "Permitte que usatores marca o dismarca un objecto in le sito como utile.",
+	"apihelp-markashelpful-param-mahaction": "Si marcar o dismarcar un objecto como utile.",
+	"apihelp-markashelpful-param-page": "Le pagina sur le qual se trova le objecto a marcar.",
+	"apihelp-markashelpful-param-type": "Le typo del objecto a marcar como utile.",
+	"apihelp-markashelpful-param-item": "Le objecto a marcar como utile.",
+	"apihelp-markashelpful-param-useragent": "Le capite User-Agent del navigator.",
+	"apihelp-markashelpful-param-system": "Le systema de operation in uso.",
+	"apihelp-markashelpful-param-locale": "Le configuration regional in uso."
 }
