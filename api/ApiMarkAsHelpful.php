@@ -5,7 +5,7 @@ class ApiMarkAsHelpful extends ApiBase {
 	public function execute() {
 		$user = $this->getUser();
 
-		if ( $user->isBlocked( false ) ) {
+		if ( $user->getBlock( false ) ) {
 			$this->dieUsageMsg( [ 'blockedtext' ] );
 		}
 
