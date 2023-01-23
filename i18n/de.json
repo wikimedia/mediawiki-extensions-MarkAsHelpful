@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Inkowik",
+			"Justman10000",
 			"Kghbln",
 			"Man77",
 			"Metalhead64",
@@ -15,6 +16,7 @@
 	"mah-undo-mark-text": "rückgängig machen",
 	"mah-action-error": "Beim Ausführen dieser Aktion ist ein Fehler aufgetreten.",
 	"apihelp-getmarkashelpfulitem-description": "Ruft eine Liste aller hilfreichen Statusse für ein Objektelement ab.",
+	"apihelp-getmarkashelpfulitem-summary": "Holt eine Liste aller hilfreichen Status für einen Gegenstand.",
 	"apihelp-getmarkashelpfulitem-param-type": "Der Objekttyp, der als hilfreich markiert wurde.",
 	"apihelp-getmarkashelpfulitem-param-item": "Das Objektelement, das als hilfreich markiert wurde.",
 	"apihelp-getmarkashelpfulitem-param-prop": "Zurückzugebende Eigenschaft:",
