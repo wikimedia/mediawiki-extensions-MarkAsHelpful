@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class ApiGetMarkAsHelpfulItem extends ApiBase {
 
 	public function execute() {
@@ -17,7 +19,7 @@ class ApiGetMarkAsHelpfulItem extends ApiBase {
 		// check if the page has permission to request the item
 		$isAbleToShow = false;
 
-		Hooks::run( 'onMarkItemAsHelpful', [ $params['type'], $params['item'], $user, &$isAbleToMark, $page, &$isAbleToShow ] );
+		MediaWikiServices::getInstance()->getHookContainer()->run( 'onMarkItemAsHelpful', [ $params['type'], $params['item'], $user, &$isAbleToMark, $page, &$isAbleToShow ] );
 
 		if ( $isAbleToShow ) {
 			$HelpfulUserList = MarkAsHelpfulItem::getMarkAsHelpfulList( $params['type'], $params['item'] );

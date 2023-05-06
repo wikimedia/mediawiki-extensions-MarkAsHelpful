@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class ApiMarkAsHelpful extends ApiBase {
 
 	public function execute() {
@@ -28,7 +30,7 @@ class ApiMarkAsHelpful extends ApiBase {
 		$isAbleToShow = false;
 
 		// Gives other extension the last chance to specify mark as helpful permission rules
-		Hooks::run( 'onMarkItemAsHelpful', [ $params['type'], $params['item'], $user, &$isAbleToMark, $page, &$isAbleToShow ] );
+		MediaWikiServices::getInstance()->getHookContainer()->run( 'onMarkItemAsHelpful', [ $params['type'], $params['item'], $user, &$isAbleToMark, $page, &$isAbleToShow ] );
 
 		if ( !$isAbleToShow || !$isAbleToMark ) {
 			$this->noPermissionError();
