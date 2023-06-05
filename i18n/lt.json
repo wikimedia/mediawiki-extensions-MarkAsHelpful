@@ -1,8 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mantak111"
+			"Mantak111",
+			"Nokeoo"
 		]
 	},
-	"mah-undo-mark-text": "anuliuoti"
+	"markashelpful-desc": "Pateikia naudotojo sąsaja komentarų žymėjimui kaip naudingiems",
+	"mah-mark-text": "Žymėti kaip naudingą",
+	"mah-you-marked-text": "Jūs manote, kad tai naudinga",
+	"mah-someone-marked-text": "{{GENDER:$1|$1 mano, kad tai naudinga}}",
+	"mah-undo-mark-text": "anuliuoti",
+	"mah-action-error": "Įvyko klaida atliekant šį veiksmą",
+	"apihelp-getmarkashelpfulitem-param-type": "Objekto tipas, kuris žymimas kaip naudingas.",
+	"apihelp-getmarkashelpfulitem-param-item": "Objekto tipas, kuris žymimas kaip naudingas.",
+	"apihelp-getmarkashelpfulitem-param-prop": "Kurią savybę gauti.",
+	"apihelp-getmarkashelpfulitem-param-page": "Puslapis, kuris prašo elemento.",
+	"apihelp-markashelpful-description": "Leidžia naudotojams pažymėti ar atžymėti objekto elementą svetainėje kaip naudingą.",
+	"apihelp-markashelpful-summary": "Leidžia naudotojams pažymėti ar atžymėti objekto elementą svetainėje kaip naudingą.",
+	"apihelp-markashelpful-param-mahaction": "Ar pažymėti, ar atžymėti elementą kaip naudingą.",
+	"apihelp-markashelpful-param-page": "Puslapis, kuriame yra žymimas elementas.",
+	"apihelp-markashelpful-param-type": "Objekto tipas, kuris žymimas kaip naudingas.",
+	"apihelp-markashelpful-param-item": "Objekto tipas, kuris žymimas kaip naudingas.",
+	"apihelp-markashelpful-param-system": "Naudojama operacinė sistema."
 }
