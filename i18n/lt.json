@@ -15,7 +15,6 @@
 	"apihelp-getmarkashelpfulitem-param-item": "Objekto tipas, kuris žymimas kaip naudingas.",
 	"apihelp-getmarkashelpfulitem-param-prop": "Kurią savybę gauti.",
 	"apihelp-getmarkashelpfulitem-param-page": "Puslapis, kuris prašo elemento.",
-	"apihelp-markashelpful-description": "Leidžia naudotojams pažymėti ar atžymėti objekto elementą svetainėje kaip naudingą.",
 	"apihelp-markashelpful-summary": "Leidžia naudotojams pažymėti ar atžymėti objekto elementą svetainėje kaip naudingą.",
 	"apihelp-markashelpful-param-mahaction": "Ar pažymėti, ar atžymėti elementą kaip naudingą.",
 	"apihelp-markashelpful-param-page": "Puslapis, kuriame yra žymimas elementas.",
