@@ -12,7 +12,7 @@
 	"mah-you-marked-text": "U denkt dat dit nuttig is",
 	"mah-someone-marked-text": "{{GENDER:$1|$1}} denkt dat dit nuttig is",
 	"mah-undo-mark-text": "ongedaan maken",
-	"mah-action-error": "Er is een fout opgetreden tijdens het uitvoeren van deze handeling",
+	"mah-action-error": "Er is een fout opgetreden tijdens het verrichten van deze handeling",
 	"apihelp-getmarkashelpfulitem-param-type": "Het type object dat wordt gemarkeerd als nuttig.",
 	"apihelp-getmarkashelpfulitem-param-item": "Het objectitem dat wordt gemarkeerd als nuttig.",
 	"apihelp-getmarkashelpfulitem-param-prop": "Welke eigenschap op te vragen.",
