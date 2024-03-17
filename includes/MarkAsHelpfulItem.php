@@ -248,7 +248,7 @@ class MarkAsHelpfulItem {
 			$conds,
 			__METHOD__,
 			[ 'LIMIT' => 1 ]
- );
+		);
 
 		$list = [];
 
