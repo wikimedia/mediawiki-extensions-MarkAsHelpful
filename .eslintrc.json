@@ -8,6 +8,7 @@
 	"rules": {
 		"no-jquery/no-in-array": "off",
 		"no-jquery/no-ready-shorthand": "off",
-		"valid-jsdoc": "off"
+		"valid-jsdoc": "off",
+		"no-jquery/no-extend": "warn"
 	}
 }
