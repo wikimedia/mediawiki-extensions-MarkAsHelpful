@@ -9,6 +9,7 @@
 		"no-jquery/no-in-array": "off",
 		"no-jquery/no-ready-shorthand": "off",
 		"valid-jsdoc": "off",
-		"no-jquery/no-extend": "warn"
+		"no-jquery/no-extend": "warn",
+		"es-x/no-object-assign": "warn"
 	}
 }

@@ -103,7 +103,7 @@
 			props = mah.getItemProperties( $item );
 			clientData = $.client.profile();
 			props.mahaction = action;
-			request = $.extend( {
+			request = Object.assign( {
 				action: 'markashelpful',
 				format: 'json',
 				page: mw.config.get( 'wgPageName' ),
