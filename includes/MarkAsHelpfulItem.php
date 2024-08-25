@@ -176,7 +176,7 @@ class MarkAsHelpfulItem {
 	 * data must be validated if called from setProperty()
 	 */
 	public function mark() {
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = wfGetDB( DB_PRIMARY );
 
 		$row = [];
 
@@ -214,7 +214,7 @@ class MarkAsHelpfulItem {
 				return;
 			}
 			if ( $currentUser->getId() == $user->getId() ) {
-				$dbw = wfGetDB( DB_MASTER );
+				$dbw = wfGetDB( DB_PRIMARY );
 
 				$dbw->delete(
 					'mark_as_helpful',
