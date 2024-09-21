@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 /**
  * An entity that handles 'Mark As Helpful' items
  */
@@ -150,7 +153,7 @@ class MarkAsHelpfulItem {
 			throw new MWMarkAsHelpFulItemSearchKeyException( 'Invalid search key!' );
 		}
 
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
 
 		$res = $dbr->selectRow(
 			[ 'mark_as_helpful' ],
@@ -176,7 +179,7 @@ class MarkAsHelpfulItem {
 	 * data must be validated if called from setProperty()
 	 */
 	public function mark() {
-		$dbw = wfGetDB( DB_PRIMARY );
+		$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 
 		$row = [];
 
@@ -214,7 +217,7 @@ class MarkAsHelpfulItem {
 				return;
 			}
 			if ( $currentUser->getId() == $user->getId() ) {
-				$dbw = wfGetDB( DB_PRIMARY );
+				$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 
 				$dbw->delete(
 					'mark_as_helpful',
@@ -232,7 +235,7 @@ class MarkAsHelpfulItem {
 	 * @return array
 	 */
 	public static function getMarkAsHelpfulList( $type, $item ) {
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
 
 		$conds = [
 			'mah_type' => $type,
