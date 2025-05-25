@@ -12,9 +12,9 @@
 		selector: '[class^="markashelpful"]',
 
 		init: function () {
-			var props, thisItem;
+			let props, thisItem;
 
-			$( mah.selector ).each( function ( i, el ) {
+			$( mah.selector ).each( ( i, el ) => {
 				props = mah.getItemProperties( $( el ) );
 				// Create an item reference to place in the loaded items array.
 				thisItem = props.type + props.item;
@@ -34,7 +34,7 @@
 		 * @param $item
 		 */
 		getItemProperties: function ( $item ) {
-			var tag, props;
+			let tag, props;
 
 			tag = $item.attr( 'class' );
 			// Item properties are stored in classname to prevent parser from stripping
@@ -54,7 +54,7 @@
 		 * @param $item
 		 */
 		loadItem: function ( $item ) {
-			var props, request;
+			let props, request;
 
 			props = mah.getItemProperties( $item );
 			request = {
@@ -71,7 +71,7 @@
 				cache: false,
 				data: request,
 				success: function ( data ) {
-					var $content;
+					let $content;
 
 					if ( data.getmarkashelpfulitem &&
 						data.getmarkashelpfulitem.result === 'success' &&
@@ -97,7 +97,7 @@
 		 * @param action
 		 */
 		markItem: function ( $clicked, action ) {
-			var $item, props, clientData, request;
+			let $item, props, clientData, request;
 
 			$item = $clicked.parent().parent();
 			props = mah.getItemProperties( $item );
@@ -126,7 +126,7 @@
 
 	// Some live events for the different modes
 
-	$( document ).ready( function () {
+	$( document ).ready( () => {
 
 		/**
 		 * Click Event for marking an item as helpful.
