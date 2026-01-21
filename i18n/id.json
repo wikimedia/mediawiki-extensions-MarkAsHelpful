@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bennylin",
 			"Farras",
 			"Kenrick95"
 		]
 	},
 	"mah-mark-text": "Tandai bermanfaat",
-	"mah-undo-mark-text": "balikkan"
+	"mah-undo-mark-text": "batalkan"
 }
