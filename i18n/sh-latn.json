@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"Winston Sung"
 		]
 	},
@@ -20,7 +21,7 @@
 	"apihelp-markashelpful-param-page": "Na kojoj stranici označiti stavku.",
 	"apihelp-markashelpful-param-type": "Objektni tip što označuje se kao korisan.",
 	"apihelp-markashelpful-param-item": "Objektna stavka što označuje se kao korisna.",
-	"apihelp-markashelpful-param-useragent": "Zaglavlje „korisnik-vršitelj“ u pregledniku.",
+	"apihelp-markashelpful-param-useragent": "Zaglavlje \"korisnik-agent\" u pregledniku.",
 	"apihelp-markashelpful-param-system": "Koji operativni sistem se koristi.",
 	"apihelp-markashelpful-param-locale": "Mjestooznaka što se koristi."
 }
